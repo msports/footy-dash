@@ -8,8 +8,7 @@
 'use strict';
 import FeatureBase from 'lib/FeatureBase';
 import { element } from 'angular';
-import tpl from './Footer.html';
-import __config from 'etc/config';
+import FooterDirective from '../directives/FooterDirective';
 
 class Feature extends FeatureBase {
 
@@ -19,15 +18,16 @@ class Feature extends FeatureBase {
     }
 
     beforeStart() {
-        this.$body.append(tpl);
+        this.$body.append('<footer-directive></footer-directive>');
     }
     /*@ngInject*/
     FooterCtrl($scope) {
-        $scope.config = __config;
+
     }
 
     execute() {
         this.mod.controller('FooterCtrl', this.FooterCtrl);
+		this.directive('footerDirective', () => new FooterDirective());
     }
 }
 

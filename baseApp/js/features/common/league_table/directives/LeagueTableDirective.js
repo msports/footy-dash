@@ -7,10 +7,12 @@ import {
 from 'angular';
 import LeagueTableController from '../controller/LeagueTableController';
 
+const templateUrl = require('js/features/common/league_table/partials/league.table.tpl.html');
+
 class LeagueTableDirective {
 	/*@ngInject*/
 	constructor($scope) {
-		this.templateUrl = '/js/features/common/league_table/partials/league.table.tpl.html';
+		this.templateUrl = templateUrl;
 		this.restrict = 'E';
 		this.replace = true;
 		this.scope = {};

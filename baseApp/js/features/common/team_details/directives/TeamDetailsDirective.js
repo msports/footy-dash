@@ -7,10 +7,12 @@ import {
 from 'angular';
 import TeamDetailsController from '../controller/TeamDetailsController';
 
+const templateUrl = require('js/features/common/team_details/partials/team.details.tpl.html');
+
 class TeamDetailsDirective {
 	/*@ngInject*/
 	constructor($scope) {
-		this.templateUrl = '/js/features/common/team_details/partials/team.details.tpl.html';
+		this.templateUrl = templateUrl;
 		this.restrict = 'E';
 		this.replace = true;
 		this.scope = {};

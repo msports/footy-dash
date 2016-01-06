@@ -1,6 +1,8 @@
 'use strict';
 var path = require('path');
 var webpack = require('webpack');
+var ngAnnotatePlugin = require('ng-annotate-webpack-plugin');
+
 
 module.exports = {
 	entry: {
@@ -11,8 +13,17 @@ module.exports = {
 		filename: '[hash].[name].bundle.js',
 		chunkFilename: '[hash].[id].bundle.js',
 		publicPath: 'js/'
-	},
+	},	
+    debug: true,
+    devtool: 'sourcemap',	
 	module: {
+		preLoaders: [
+			{
+				test: /\.js$/, // include .js files
+				exclude: /(node_modules|bower_components)/, // exclude any and all files in the node_modules folder
+				loaders: ['eslint']
+			}
+        ],	
 		loaders: [
 			{
 				test: /\.css$/,
@@ -20,25 +31,26 @@ module.exports = {
             },
 			{
 				test: /\.scss$/,
-				loaders: ["style", "css?sourceMap", "sass?sourceMap"]
+				loaders: ["style", "css", "sass"]
             },
-			{
-				test: /\.js$/,
-				loader: 'babel',
-				exclude: /(node_modules|bower_components)/,
-				query: {
-					presets: [
+            {
+                test: /\.js$/,
+                loader: 'babel',
+                exclude: /(node_modules|bower_components)/,
+                query: {
+                    presets: [
                         'es2015'
                     ]
-				}
-            },
+                }
+            },		
 			{
 				test: /\.(eot|svg|ttf|woff|woff2)\w*/,
 				loader: 'file'
             },
 			{
 				test: /\.html$/,
-				loader: 'raw'
+				loader: 'ngtemplate?relativeTo=' + (path.resolve(__dirname, './js/')) + '/!html'
+				//loader: 'raw' 
             }
         ]
 	},
@@ -50,16 +62,13 @@ module.exports = {
         ]
 	},
 	plugins: [
-        new webpack.optimize.UglifyJsPlugin({
+        /*new webpack.optimize.UglifyJsPlugin({
 			compress: {
-				warnings: false
-			}
-		}),
-		new ngAnnotatePlugin({
-			add: true,
-			// other ng-annotate options here 
-		}),
-        new
+				warnings: false,
+			},
+			 mangle: false
+		}),*/
+		new ngAnnotatePlugin({add: true}),
         new webpack.optimize.CommonsChunkPlugin('[hash].common.bundle.js'),
 		new webpack.ProvidePlugin({
 			$: 'jquery',

@@ -7,10 +7,12 @@ import {
 from 'angular';
 import AccordianController from '../controllers/AccordianController';
 
+const templateUrl = require('js/features/common/ui/accordian.tpl.html');
+
 class AccordianDirective {
 	/*@ngInject*/
 	constructor($scope) {
-		this.templateUrl = '/js/features/common/ui/accordian.tpl.html';
+		this.templateUrl = templateUrl;
 		this.restrict = 'E';
 		this.replace = true;
 		this.scope = {};

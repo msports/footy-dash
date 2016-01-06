@@ -26,7 +26,7 @@ class Feature extends FeatureBase {
     }
     /*@ngInject*/
     templateCaching($templateCache) {
-        //$templateCache.put('topNavTpl', topNavTpl);
+        
     }
 
     execute() {

@@ -48,7 +48,7 @@ module.exports = {
             },
             {
                 test: /\.html$/,
-                loader: 'raw'
+                loader: 'ngtemplate?relativeTo=' + (path.resolve(__dirname, './js/')) + '/!html'
             }
         ]
     },

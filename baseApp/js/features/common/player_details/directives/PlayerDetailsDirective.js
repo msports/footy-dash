@@ -7,10 +7,12 @@ import {
 from 'angular';
 import PlayerDetailsController from '../controller/PlayerDetailsController';
 
+const templateUrl = require('js/features/common/player_details/partials/player.details.tpl.html');
+
 class PlayerDetailsDirective {
 	/*@ngInject*/
 	constructor($scope) {
-		this.templateUrl = '/js/features/common/player_details/partials/player.details.tpl.html';
+		this.templateUrl = templateUrl;
 		this.restrict = 'E';
 		this.replace = true;
 		this.scope = {};

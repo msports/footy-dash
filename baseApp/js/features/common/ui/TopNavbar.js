@@ -9,32 +9,30 @@
 
 import { element } from 'angular';
 import FeatureBase from 'lib/FeatureBase';
-import NavbarController from '../controllers/NavbarController';
-import NavigationDirective from '../directives/NavigationDirective';
-import topNavTpl from './TopNavbar.html';
-
+import TopNavbarController from '../controllers/TopNavbarController';
+import TopNavbarDirective from '../directives/TopNavbarDirective';
 
 class Feature extends FeatureBase {
 
     constructor() {
-        super('TopnavModule');
-        this.$body = element(document.body);
+        super('TopnavModule');        
+		this.$body = element(document.body);
 		
    }
 
     beforeStart() {
-        this.$body.prepend(topNavTpl);
+        this.$body.prepend('<top-navbar-directive></top-navbar-directive>');
     }
     /*@ngInject*/
     templateCaching($templateCache) {
-        $templateCache.put('topNavTpl', topNavTpl);
+       //$templateCache.put('topNavTpl', topNavTpl);
     }
 
     execute() {
-        this.run(this.templateCaching);
+        //this.run(this.templateCaching);
 
-        this.controller('NavbarController', NavbarController);
-		this.directive('navigationDirective', () => new NavigationDirective());		
+        this.controller('TopNavbarController', TopNavbarController);
+		this.directive('topNavbarDirective', () => new TopNavbarDirective());		
     }
 }
 
