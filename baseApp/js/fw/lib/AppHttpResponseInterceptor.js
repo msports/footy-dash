@@ -1,5 +1,5 @@
 /**
- *  Defines the HomeService
+ *  Defines the http response interceptors
  *
  *  @author  Chip
  *  @date    Dec 31, 2015

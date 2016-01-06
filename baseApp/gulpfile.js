@@ -11,7 +11,7 @@ gulp.task('release', function(callback) {
 
     require('rimraf').sync('build/');
 
-    gulp.src(['img/*', 'mock/*'], {'base': '.'})
+    gulp.src(['img/*'], {'base': '.'})
         .pipe(gulp.dest('build/'));
 
     webpack(config, function(err, stats) {
