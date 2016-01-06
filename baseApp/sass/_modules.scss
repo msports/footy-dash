@@ -1,0 +1,13 @@
+@import "modules/top-nav";
+@import "modules/footer";
+@import "modules/table";
+@import "modules/flexBox";
+@import "modules/grid_items";
+@import "modules/teamTable";
+@import "modules/accordian";
+
+.module {
+	@include fill-parent();
+	@include row();
+	position: relative;
+}

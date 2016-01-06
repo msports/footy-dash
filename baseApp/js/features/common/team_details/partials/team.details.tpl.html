@@ -1,0 +1,38 @@
+<div>
+	<h1>{{vm.teamDetails.name}}</h1>
+	<table class="tables">
+		<thead>
+			<tr>
+				<th colspan="2"><img src="{{ vm.teamDetails.crestUrl}}" /></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Squad Market Value</td>
+				<td st-ratio="25">{{vm.teamDetails.squadMarketValue}}</td>
+
+			</tr>
+			<tr>
+				<td colspan="2">
+					<accordian-directive></accordian-directive>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Fixtures</h2>
+	<table class="tables">
+		<thead>
+			<tr>
+				<th>Home</th>
+				<th>Away</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="fixture in vm.teamFixtures | limitTo: 4">
+				<td st-ratio="25"><span class="floatLeft">{{ fixture.homeTeamName }}</span> <span class="floatRight">{{ fixture.result.goalsHomeTeam }}</span></td>
+				<td st-ratio="25"><span class="floatLeft">{{ fixture.awayTeamName }}</span> <span class="floatRight">{{ fixture.result.goalsAwayTeam }}</span></td>
+			</tr>
+
+		</tbody>
+	</table>
+</div>

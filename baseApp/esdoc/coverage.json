@@ -1,0 +1,576 @@
+{
+  "coverage": "4.08%",
+  "expectCount": 318,
+  "actualCount": 13,
+  "files": {
+    "js/features/common/ui/Footer.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        18,
+        14,
+        25,
+        21,
+        16,
+        29,
+        34
+      ]
+    },
+    "js/features/common/ui/TopNavbar.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        21,
+        17,
+        25,
+        19,
+        33,
+        41,
+        29
+      ]
+    },
+    "js/features/common/ui/Accordian.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        20,
+        16,
+        24,
+        18,
+        32,
+        40,
+        28
+      ]
+    },
+    "js/features/common/ui/ButtonGroup.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        21,
+        17,
+        25,
+        19,
+        33,
+        41,
+        29
+      ]
+    },
+    "js/features/common/ui/RouteIndicator.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        19,
+        15,
+        17,
+        33,
+        40,
+        22
+      ]
+    },
+    "js/features/common/controllers/AccordianController.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        2,
+        15,
+        4,
+        10
+      ]
+    },
+    "js/features/common/directives/AccordianDirective.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        33,
+        17,
+        12,
+        18,
+        19,
+        24,
+        15,
+        14,
+        16,
+        13
+      ]
+    },
+    "js/main.js": {
+      "expectCount": 15,
+      "actualCount": 10,
+      "undocumentLines": [
+        67,
+        121,
+        25,
+        38,
+        26
+      ]
+    },
+    "js/fw/lib/AppHttpResponseInterceptor.js": {
+      "expectCount": 4,
+      "actualCount": 1,
+      "undocumentLines": [
+        67,
+        17,
+        61
+      ]
+    },
+    "js/features/common/controllers/ButtonGroupController.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        15,
+        3,
+        10
+      ]
+    },
+    "js/features/common/directives/ButtonGroupDirective.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        12,
+        33,
+        7,
+        13,
+        14,
+        18,
+        10,
+        9,
+        11,
+        8
+      ]
+    },
+    "js/fw/config/RouterConfig.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        15,
+        91,
+        16,
+        43,
+        20,
+        49
+      ]
+    },
+    "js/fw/config/SSOConfig.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        12,
+        29,
+        13,
+        24,
+        17
+      ]
+    },
+    "js/fw/config/AppConfig.js": {
+      "expectCount": 5,
+      "actualCount": 1,
+      "undocumentLines": [
+        21,
+        29,
+        19,
+        24
+      ]
+    },
+    "js/fw/config/NotifierConfig.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        12,
+        27,
+        13,
+        22,
+        17
+      ]
+    },
+    "js/fw/lib/ConfiguratorBase.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        14,
+        16,
+        25,
+        17,
+        12,
+        21,
+        13,
+        18
+      ]
+    },
+    "js/fw/service/CustomFilters.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        14,
+        33,
+        16,
+        44,
+        37,
+        28,
+        22
+      ]
+    },
+    "js/features/common/league_table/main.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        19,
+        25,
+        21,
+        33,
+        59,
+        29
+      ]
+    },
+    "js/features/common/player_details/main.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        22,
+        28,
+        24,
+        36,
+        63,
+        32
+      ]
+    },
+    "js/features/common/team_details/main.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        24,
+        30,
+        26,
+        38,
+        65,
+        34
+      ]
+    },
+    "js/features/common/ui/Info.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        15,
+        49,
+        54,
+        19
+      ]
+    },
+    "js/features/home/main.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        21,
+        28,
+        23,
+        36,
+        49,
+        25,
+        32
+      ]
+    },
+    "js/fw/lib/FeatureBase.js": {
+      "expectCount": 14,
+      "actualCount": 0,
+      "undocumentLines": [
+        12,
+        29,
+        24,
+        14,
+        19,
+        22,
+        32,
+        16,
+        20,
+        36,
+        23,
+        17,
+        25,
+        21
+      ]
+    },
+    "js/fw/service/FootballDataService.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        27,
+        14,
+        16,
+        15,
+        31,
+        35,
+        23,
+        19
+      ]
+    },
+    "js/features/home/controller/HomeController.js": {
+      "expectCount": 10,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        13,
+        26,
+        32,
+        9,
+        15,
+        17,
+        48,
+        61,
+        56
+      ]
+    },
+    "js/features/home/directives/HomeDirective.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        17,
+        12,
+        24,
+        25,
+        53,
+        30,
+        15,
+        14,
+        16,
+        13
+      ]
+    },
+    "js/fw/lib/InitBase.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        12,
+        16,
+        13,
+        20
+      ]
+    },
+    "js/fw/init/Header.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        14,
+        26,
+        15,
+        39,
+        17,
+        62,
+        33,
+        20
+      ]
+    },
+    "js/fw/init/Body.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        15,
+        19,
+        24
+      ]
+    },
+    "js/fw/init/Validator.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        14,
+        18,
+        33
+      ]
+    },
+    "js/features/common/league_table/controller/LeagueTableController.js": {
+      "expectCount": 12,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        15,
+        14,
+        24,
+        39,
+        49,
+        60,
+        55,
+        17,
+        12,
+        13
+      ]
+    },
+    "js/features/common/league_table/directives/LeagueTableDirective.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        17,
+        12,
+        20,
+        21,
+        31,
+        26,
+        15,
+        14,
+        16,
+        13
+      ]
+    },
+    "js/features/common/controllers/NavbarController.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        11
+      ]
+    },
+    "js/features/common/directives/NavigationDirective.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7,
+        13,
+        40,
+        10,
+        9,
+        8
+      ]
+    },
+    "js/features/common/player_details/controller/PlayerDetailsController.js": {
+      "expectCount": 10,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        19,
+        8,
+        15,
+        25,
+        33,
+        48,
+        20,
+        14,
+        43
+      ]
+    },
+    "js/features/common/player_details/directives/PlayerDetailsDirective.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        17,
+        12,
+        24,
+        25,
+        30,
+        35,
+        15,
+        14,
+        16,
+        13
+      ]
+    },
+    "js/fw/service/RSSService.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        11,
+        4,
+        5,
+        7,
+        16
+      ]
+    },
+    "js/fw/service/Events.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        15,
+        16,
+        20,
+        61,
+        66
+      ]
+    },
+    "js/fw/service/Utils.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        14,
+        15,
+        113,
+        28,
+        118,
+        97,
+        19
+      ]
+    },
+    "js/fw/lib/ServiceBase.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        15,
+        12,
+        21,
+        16,
+        14,
+        17,
+        25
+      ]
+    },
+    "js/features/common/team_details/controller/TeamDetailsController.js": {
+      "expectCount": 13,
+      "actualCount": 1,
+      "undocumentLines": [
+        6,
+        23,
+        8,
+        15,
+        14,
+        54,
+        70,
+        13,
+        75,
+        24,
+        60,
+        28
+      ]
+    },
+    "js/features/common/team_details/directives/TeamDetailsDirective.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        17,
+        12,
+        20,
+        21,
+        26,
+        15,
+        14,
+        16,
+        31,
+        13
+      ]
+    },
+    "js/fw/lib/Omit.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        26
+      ]
+    },
+    "js/fw/lib/Pluck.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    }
+  }
+}

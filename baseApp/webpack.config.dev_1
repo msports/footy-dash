@@ -1,0 +1,94 @@
+'use strict';
+var path = require('path');
+var webpack = require('webpack');
+var ngAnnotatePlugin = require('ng-annotate-webpack-plugin');
+var nodeModulesDir = path.join(__dirname, '../node_modules');
+var pathToAngular = path.resolve(nodeModulesDir, 'angular/angular.min.js');
+
+var deps = [
+  'angular/angular.min.js'
+];
+
+module.exports = {
+    entry: {
+        index: './js/index.js'
+    },
+    output: {
+        path: path.resolve(__dirname, 'build', 'js'),
+        filename: '[name].bundle.js',
+        chunkFilename: '[id].bundle.js',
+        publicPath: 'js/'
+    },
+    debug: true,
+    devtool: 'sourcemap',
+    module: {
+        preLoaders: [
+            {
+                test: /\.js$/, // include .js files
+                exclude: /(node_modules|bower_components)/, // exclude any and all files in the node_modules folder
+                loaders: ['eslint']
+            }
+        ],	
+		noParse: [],
+        loaders: [
+            {
+                test: /\.css$/,
+                loader: 'style/useable!css!autoprefixer?browsers=last 5 version!'
+            },
+            {
+                test: /\.scss$/,
+                loaders: ["style", "css?sourceMap", "sass?sourceMap"]
+            },			
+            {
+                test: /\.js$/,
+                loader: 'babel',
+                exclude: /(node_modules|bower_components)/,
+                query: {
+                    presets: [
+                        'es2015'
+                    ]
+                }
+            },
+            {
+                test: /\.(eot|svg|ttf|woff|woff2)\w*/,
+                loader: 'file'
+            },
+            {
+                test: /\.html$/,
+                loader: 'raw'
+            },
+			{
+			  test: path.resolve(nodeModulesDir, deps[0]),
+			  loader: "expose?angular"
+			},
+			{
+			  test: path.resolve(nodeModulesDir, deps[0]),
+			  loader: "expose?angular"
+			}
+        ]
+    },
+    resolve: {
+		alias: {'angular': pathToAngular},
+        root: [
+            path.resolve(__dirname),
+            path.resolve(__dirname, 'js/'),
+            path.resolve(__dirname, 'js/fw/')
+        ]
+    },
+    plugins: [
+		new ngAnnotatePlugin({
+            add: true,
+            // other ng-annotate options here 
+        }),
+        new webpack.optimize.CommonsChunkPlugin('common.bundle.js'),
+		new webpack.ProvidePlugin({$: 'jquery', 'window.jQuery': 'jquery'})		
+    ]
+};
+
+deps.forEach(function (dep) {
+  var depPath = path.resolve(nodeModulesDir, dep);
+  //module.exports.resolve.alias[dep.split('/')[0]] = depPath;
+  module.exports.module.noParse.push(depPath);
+  //process.stdout.write('Alias: '+dep.split('/')[0]);
+  process.stdout.write(' NO PARSE: '+module.exports.module.noParse);
+});
