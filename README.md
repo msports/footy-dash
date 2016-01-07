@@ -1,5 +1,5 @@
 # footy-dash
-Football/Soccer Dashboard in pure ES6 AngularJS 1.4 
+Football/Soccer Dashboard in pure ES6 & AngularJS 1.4 
 
 Live preview:
 http://chipmoeser.com/footy-dash/index.html
