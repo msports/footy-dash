@@ -1,4 +1,12 @@
 <div class="flex-box">
+<div class="dropdown">
+  <div class="dropdown-container">
+    <div>Choose League</div>
+       <select ng-model="vm.selectedLeague" ng-change="vm.getLeagueTable()">
+        <option ng-repeat="league in vm.leagues" value="{{league.id}}">{{league.name}}</option>
+      </select>
+  </div>
+</div>
 	<table class="tables">
 		<thead>
 			<tr>

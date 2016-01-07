@@ -8,17 +8,5 @@
 		<player-details-directive></player-details-directive>
 
 	</div>
-	<div class="flex-box flex-box-big">
-		<div class="container-fluid">
-        <div class="row-fluid">
-            <h2>BBC Sport Football</h2>
-                <ul class="unstyled">
-                 <li ng-repeat="feed in vm.feeds | limitTo: 10" class="rssLink">                    
-                    <h5><a href="{{feed.link}}" target="_blank">{{feed.title}}</div></h5>                                        
-                    <p class="text-left">{{feed.contentSnippet}}</p>                    
-                    <span class="small">{{feed.publishedDate}}</span>
-                </li>                
-            </ul>            
-        </div>
-</div>
+      <rss-feed-directive></rss-feed-directive>
 </div>

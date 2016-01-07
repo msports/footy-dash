@@ -1,5 +1,5 @@
 /**
- * This is an example of a "component" directive which encapsulates a template.
+ * This is an example of a 'component' directive which encapsulates a template.
  */
 import {
 	element
@@ -17,15 +17,29 @@ class LeagueTableDirective {
 		this.replace = true;
 		this.scope = {};
 		this.bindToController = {
-			tables: '='
+			tables: '=',
+			leagues: '='
 		};
 		this.controller = LeagueTableController;
 		this.controllerAs = 'vm';
+;
 	}
 
 
 	/*@ngInject*/
 	link(scope, element, attributes, controller) {
+		$(document).ready(function () {
+			$('.dropdown-button').click(function () {
+				var $button, $menu;
+				$button = $(this);
+				$menu = $button.siblings('.dropdown-menu');
+				$menu.toggleClass('show-menu');
+				$menu.children('li').click(function () {
+					$menu.removeClass('show-menu');
+					$button.html($(this).html());
+				});
+			});
+		});
 
 	}
 }

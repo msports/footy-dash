@@ -14,9 +14,7 @@ describe('HomeController', function() {
     it('Should not be null', function () {
         expect(component).not.to.equal(null);
     });
-	it('Should have the name HomeController', function(){
-		expect(component.name).to.equal('HomeController');
-	});
+
 	it('Run should return HomeController', function(){
 		expect(component.run()).to.equal('HomeController');
 	});

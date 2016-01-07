@@ -1,28 +1,26 @@
-const INIT = new WeakMap();
 const FootballService = new WeakMap();
-const FeedService = new WeakMap();
 const TIMEOUT = new WeakMap();
 
 class LeagueTableController {
 	/*@ngInject*/
-	constructor($timeout, FootballDataService, $scope, $filter, events) {
+	constructor($timeout, FootballDataService, $scope, $filter, CONF) {
 		var vm = this;
 		TIMEOUT.set(this, $timeout);
 		FootballService.set(this, FootballDataService);
 		this.tables = {};
 		this.title = '';
 		this.filter = $filter;
-		this.events = events;
-		
+		this.config = CONF;
 		this.scope = $scope;
 		
+		this.leagues = CONF.footBallLeagues;
+		this.selectedLeague = this.leagues[0].id;
+		
 		this.getLeagueTable();
-
 	}
-	
 	//Gets a league table then calls a function for the team ID at the top of the table
-	getLeagueTable() {
-		FootballService.get(this).makeAPICall('http://api.football-data.org/v1/soccerseasons/398/leagueTable').then(
+	getLeagueTable() {		
+		FootballService.get(this).makeAPICall('http://api.football-data.org/v1/soccerseasons/'+this.selectedLeague+'/leagueTable').then(
 			//Success handler 
 			response => {
 				this.tables = response.standing;

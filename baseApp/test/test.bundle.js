@@ -31585,20 +31585,18 @@
 	var component = undefined;
 
 	describe('HomeController', function () {
-		beforeEach(inject(function ($rootScope) {
-			var $scope = $rootScope.$new();
-			component = new _HomeController2.default($scope);
-		}));
+	    beforeEach(inject(function ($rootScope) {
+	        var $scope = $rootScope.$new();
+	        component = new _HomeController2.default($scope);
+	    }));
 
-		it('Should not be null', function () {
-			(0, _chai.expect)(component).not.to.equal(null);
-		});
-		it('Should have the name HomeController', function () {
-			(0, _chai.expect)(component.name).to.equal('HomeController');
-		});
-		it('Run should return HomeController', function () {
-			(0, _chai.expect)(component.run()).to.equal('HomeController');
-		});
+	    it('Should not be null', function () {
+	        (0, _chai.expect)(component).not.to.equal(null);
+	    });
+
+	    it('Run should return HomeController', function () {
+	        (0, _chai.expect)(component.run()).to.equal('HomeController');
+	    });
 	});
 
 /***/ },
@@ -37493,26 +37491,64 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+	var SCOPE = new WeakMap();
 	/**
-	 *  Defines the HomeController controller
-	 *
-	 *  @author  Chip
-	 *  @date    January 6, 2015
-	 *
+	 * HomeController a controller for the home feature/tab.
+	 * Handles event delegation between child directives
 	 */
 
 	var HomeController = (function () {
-		function HomeController($scope, events) {
+		/**
+	  * Home controller constructor function
+	  * @param {[[Type]]} $scope     [[Description]]
+	  */
+		/*@ngInject*/
+
+		function HomeController($scope) {
 			_classCallCheck(this, HomeController);
 
-			this.name = 'HomeController';
-
-			$scope.$on('$destroy', function () {
-				$scope.destroyed = true;
-			});
+			var vm = this;
+			SCOPE.set(this, $scope);
+			this.addListeners();
 		}
+		/**
+	  * adds listeners for football service event triggers
+	  */
 
 		_createClass(HomeController, [{
+			key: 'addListeners',
+			value: function addListeners() {
+				var _this = this;
+
+				//After league table is loaded and top team retrieved get top team info
+				SCOPE.get(this).$on('FOOTBALL_SERVICE_TABLE_LOADED', function (event, data) {
+					_this.broadcastServiceEvent.apply(_this, [event, data]);
+				});
+				//User clicks on team, fetch team details
+				SCOPE.get(this).$on('FOOTBALL_SERVICE_TEAM_DETAILS', function (event, data) {
+					_this.broadcastServiceEvent.apply(_this, [event, data]);
+				});
+			}
+			/**
+	   * broadcasts service events to components using the football service
+	   * @param {object} event [event object]
+	   * @param {object}   data  [event object data. Contains the teamID (data.teamID) used by the football service to retrieve team information]
+	   */
+
+		}, {
+			key: 'broadcastServiceEvent',
+			value: function broadcastServiceEvent(event, data) {
+				//console.log('Broadcasting: event: '+event.name+' data: '+data.teamID);
+				SCOPE.get(this).$broadcast('FOOTBALL_SERVICE_GET_TEAM_DETAILS', { teamID: data.teamID });
+				SCOPE.get(this).$broadcast('FOOTBALL_SERVICE_GET_TEAM_PLAYERS', { teamID: data.teamID });
+				SCOPE.get(this).$broadcast('FOOTBALL_SERVICE_GET_TEAM_FIXTURES', { teamID: data.teamID });
+			}
+			/**
+	   * Returns name of HomeCOntroller
+	   * @returns {string} [HomeCOntroller]
+	   */
+
+		}, {
 			key: 'run',
 			value: function run() {
 				return 'HomeController';
@@ -37521,10 +37557,6 @@
 
 		return HomeController;
 	})();
-
-	;
-
-	HomeController.$inject = ['$scope', 'events'];
 
 	exports.default = HomeController;
 
