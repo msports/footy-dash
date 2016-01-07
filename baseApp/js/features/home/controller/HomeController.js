@@ -1,9 +1,21 @@
+/**
+ * ******************************************************************************************************
+ *
+ *   Defines a HomeController
+ *
+ *  @author  Chip
+ *  @date    Jan 7, 2016
+ *
+ * ******************************************************************************************************
+ */
+'use strict';
+
 const SCOPE = new WeakMap();
 /**
  * HomeController a controller for the home feature/tab.
  * Handles event delegation between child directives
  */
-class HomeController {
+export default class HomeController {
 	/**
 	 * Home controller constructor function
 	 * @param {[[Type]]} $scope     [[Description]]
@@ -30,17 +42,15 @@ class HomeController {
 	 */
 	broadcastServiceEvent(event, data) {
 		//console.log('Broadcasting: event: '+event.name+' data: '+data.teamID);
-		SCOPE.get(this).$broadcast('FOOTBALL_SERVICE_GET_TEAM_DETAILS', {teamID: data.teamID});
+		SCOPE.get(this).$broadcast('FOOTBALL_SERVICE_GET_TEAM_DETAILS', {teamID: data.teamID, teamStats: data.teamStats});
 		SCOPE.get(this).$broadcast('FOOTBALL_SERVICE_GET_TEAM_PLAYERS', {teamID: data.teamID});
 		SCOPE.get(this).$broadcast('FOOTBALL_SERVICE_GET_TEAM_FIXTURES', {teamID: data.teamID});
 	}
 	/**
-	 * Returns name of HomeCOntroller
-	 * @returns {string} [HomeCOntroller]
+	 * Returns name of HomeController
+	 * @returns {string} - 'HomeController'
 	 */
 	run() {
 		return 'HomeController';
 	};
 }
-
-export default HomeController;

@@ -1,21 +1,21 @@
 <div>
 	<h2>Player Details</h2>
-		<table class="tables">
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Position</th>
-					<th>Number</th>
-					<th>Market Value</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr ng-repeat="player in vm.players | orderBy: '-marketValue | playerMarketValue'">
-					<td st-ratio="25">{{ player.name}}</td>
-					<td st-ratio="25">{{ player.position}}</td>
-					<td st-ratio="25">{{ player.jerseyNumber}}</td>
-					<td st-ratio="25">{{player.marketValue}}</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+	<table class="tables">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Position</th>
+				<th>Number</th>
+				<th>Market Value</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="player in vm.players | orderBy: '-marketValue | playerMarketValue'">
+				<td st-ratio="25">{{ player.name}}</td>
+				<td st-ratio="25">{{ player.position}}</td>
+				<td st-ratio="25">{{ player.jerseyNumber}}</td>
+				<td st-ratio="25">{{player.marketValue}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

@@ -4,38 +4,38 @@
  *   Defines a PlayerDetails feature
  *
  *  @author  Chip
- *  @date    Dec 21, 2015
+ *  @date    Jan 7, 2016
  *
  * ******************************************************************************************************
  */
 'use strict';
-import {
-	element
-}
-from 'angular';
+
+import {element} from 'angular';
 import FeatureBase from 'lib/FeatureBase';
 import PlayerDetailsController from './controller/PlayerDetailsController';
+import PlayerDetailsDirective from './directives/PlayerDetailsDirective';
 import FootballDataService from 'fw/service/FootballDataService';
 //import CustomFilters from 'fw/service/CustomFilters';
-import PlayerDetailsDirective from './directives/PlayerDetailsDirective';
 
-class Feature extends FeatureBase {
 
+/**
+ * Main class for PlayerDetails component
+ * Assigns controller, service, creates new instance of  PlayerDetailsDirective and assigns it to .diective
+ */
+export default class Feature extends FeatureBase {
+	/**
+	 * Constructor for player details feature component
+	 */
 	constructor() {
 		super('playerDetails');
 	}
 
-	beforeStart() {
-
-	}
-	/*@ngInject*/
-	templateCaching($templateCache) {
-		// $templateCache.put('PlayerDetailsTpl', PlayerDetailsTpl);
-	}
-
-	execute() {
-		this.factory('FootballDataService', FootballDataService.FootballDataFactory);
-		
+	beforeStart() {	}
+	/**
+	 * Executing and assigning functions by main app class
+	 * @returns {[[Type]]} [[Description]]
+	 */
+	execute() {		
 		//TODO Move filters to external class
 		this.filter('teamIDFilter', () => {
 			return function (teamURl) {
@@ -52,12 +52,8 @@ class Feature extends FeatureBase {
 			}
 		});
 		
+		this.factory('FootballDataService', FootballDataService.FootballDataFactory);		
 		this.controller('PlayerDetailsController', PlayerDetailsController);
-		this.directive('playerDetailsDirective', () => new PlayerDetailsDirective());
-		
-		this.run(this.templateCaching);
-		
+		this.directive('playerDetailsDirective', () => new PlayerDetailsDirective());		
 	}
 }
-
-export default Feature;

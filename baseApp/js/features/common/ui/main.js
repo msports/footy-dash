@@ -1,12 +1,14 @@
 /**
- *  Entrance of common ui
+ * ******************************************************************************************************
+ *
+ *   Entrance of common ui modules
  *
  *  @author  Chip
- *  @date    January 6, 2015
+ *  @date    Jan 7, 2016
  *
+ * ******************************************************************************************************
  */
 'use strict';
-
 
 import footer from './Footer';
 import routeIndicator from './RouteIndicator';

@@ -1,11 +1,15 @@
 /**
- *  main.js manage the whole application.
+ * ******************************************************************************************************
+ *
+ *   main.js manage the whole application.
  *
  *  @author  Chip
- *  @date    January 6, 2015
+ *  @date    Jan 7, 2016
  *
+ * ******************************************************************************************************
  */
 'use strict';
+
 import angular from 'angular';
 import Initializers from 'init/main';
 import Extensions from 'ext/main';

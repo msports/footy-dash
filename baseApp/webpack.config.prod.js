@@ -62,12 +62,12 @@ module.exports = {
         ]
 	},
 	plugins: [
-        /*new webpack.optimize.UglifyJsPlugin({
+        new webpack.optimize.UglifyJsPlugin({
 			compress: {
 				warnings: false,
 			},
 			 mangle: false
-		}),*/
+		}),
 		new ngAnnotatePlugin({add: true}),
         new webpack.optimize.CommonsChunkPlugin('[hash].common.bundle.js'),
 		new webpack.ProvidePlugin({

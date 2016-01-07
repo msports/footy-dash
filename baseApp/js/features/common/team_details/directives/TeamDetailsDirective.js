@@ -1,33 +1,26 @@
-/**
- * This is an example of a "component" directive which encapsulates a template.
- */
-import {
-	element
-}
-from 'angular';
+import {element} from 'angular';
 import TeamDetailsController from '../controller/TeamDetailsController';
 
 const templateUrl = require('js/features/common/team_details/partials/team.details.tpl.html');
-
-class TeamDetailsDirective {
+/**
+ * TeamDetailsDirective a directive for the team details feature/tab.
+ */
+export default class TeamDetailsDirective {
 	/*@ngInject*/
 	constructor($scope) {
 		this.templateUrl = templateUrl;
 		this.restrict = 'E';
 		this.replace = true;
-		this.scope = {};
+		this.scope = true;
 		this.bindToController = {
-			teamDetails: '='
+			teamDetails: '=',
+			teamStats: '='
 		};
 		this.controller = TeamDetailsController;
 		this.controllerAs = 'vm';
 	}
 
-
-	/*@ngInject*/
-	link(scope, element, attributes, controller) {
+	link() {
 
 	}
 }
-
-export default TeamDetailsDirective;

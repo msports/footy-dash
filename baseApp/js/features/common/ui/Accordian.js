@@ -1,40 +1,38 @@
 /**
- *  Defines the TopAccordian Module.
+ * ******************************************************************************************************
+ *
+ *   Defines a Accordian
  *
  *  @author  Chip
- *  @date    January 6, 2015
+ *  @date    Jan 7, 2016
  *
+ * ******************************************************************************************************
  */
 'use strict';
 
 import { element } from 'angular';
 import FeatureBase from 'lib/FeatureBase';
-import AccordianController from '../controllers/AccordianController';
 import AccordianDirective from '../directives/AccordianDirective';
-
-
-class Feature extends FeatureBase {
-
-    constructor() {
-        super('accordianModule');
-        this.$body = element(document.body);
-		
+import events from 'fw/service/Events';
+/**
+ * Main class for Accordian module 
+ * Creates instance of AccordianDirective and assigns it to the .directive property 
+ */
+export default  class Feature extends FeatureBase {
+	/**
+	 * Constructor for Accordian feature
+	 * @param {[[Type]]} events [[Description]]
+	 */	
+	constructor() {
+        super('accordianModule');	
    }
 
-    beforeStart() {
-       
-    }
-    /*@ngInject*/
-    templateCaching($templateCache) {
-        
-    }
-
+    beforeStart() {}
+    /**
+     * Execute class called by app Main. Creates new instance of AccordianDirective and assigns it to the .directive property
+     */
     execute() {
-        this.run(this.templateCaching);
-
-        this.controller('AccordianController', AccordianController);
-		this.directive('accordianDirective', () => new AccordianDirective());		
+		this.directive('accordianDirective', () => new AccordianDirective(events));		
     }
 }
 
-export default Feature;

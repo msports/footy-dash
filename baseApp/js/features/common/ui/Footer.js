@@ -1,17 +1,25 @@
 /**
- *  Defines the Footer Module.
+ * ******************************************************************************************************
+ *
+ *   Defines a Footer
  *
  *  @author  Chip
- *  @date    January 6, 2015
+ *  @date    Jan 7, 2016
  *
+ * ******************************************************************************************************
  */
 'use strict';
 import FeatureBase from 'lib/FeatureBase';
 import { element } from 'angular';
 import FooterDirective from '../directives/FooterDirective';
-
-class Feature extends FeatureBase {
-
+/**
+ * HomeController a controller for the home feature/tab.
+ * Handles event delegation between child directives
+ */
+export default class Feature extends FeatureBase {
+    /**
+     * Constructor for the footer module
+     */
     constructor() {
         super('FooterModule');
         this.$body = element(document.body);
@@ -20,15 +28,8 @@ class Feature extends FeatureBase {
     beforeStart() {
         this.$body.append('<footer-directive></footer-directive>');
     }
-    /*@ngInject*/
-    FooterCtrl($scope) {
-
-    }
-
+  
     execute() {
-        this.mod.controller('FooterCtrl', this.FooterCtrl);
-		this.directive('footerDirective', () => new FooterDirective());
+        this.directive('footerDirective', () => new FooterDirective());
     }
 }
-
-export default Feature;
