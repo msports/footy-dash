@@ -1,16 +1,17 @@
 <div>
 	<h2>Player Details</h2>
-	<table class="tables">
+	<table class="tables player-details">
 		<thead>
 			<tr>
-				<th>Name</th>
-				<th>Position</th>
-				<th>Number</th>
-				<th>Market Value</th>
+				<th ng-click="vm.changeSorting('name')">Name</th>
+				<th ng-click="vm.changeSorting('position')">Position</th>
+				<th ng-click="vm.changeSorting('jerseyNumber')">Number</th>
+				<th ng-click="vm.changeSorting('-marketValue | playerMarketValue')" class="sortDesc">Market Value</th>
 			</tr>
 		</thead>
 		<tbody>
-			<tr ng-repeat="player in vm.players | orderBy: '-marketValue | playerMarketValue'">
+			<!--<tr ng-repeat="player in vm.players | orderBy: '-marketValue | playerMarketValue'">-->
+			<tr ng-repeat="player in vm.players | orderBy: vm.sort.column : vm.sort.descending">
 				<td st-ratio="25">{{ player.name}}</td>
 				<td st-ratio="25">{{ player.position}}</td>
 				<td st-ratio="25">{{ player.jerseyNumber}}</td>

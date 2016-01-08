@@ -28,6 +28,8 @@ export default class PlayerDetailsController {
 
 		this.players = {};
 		this.filter = $filter;
+		//this.sort = {column: this.filter('playerMarketValue')(this.players.marketValue), descending: true};
+		this.sort = {column: '-marketValue | playerMarketValue', descending: false};
 		this.addListeners();
 	}
 	/**
@@ -56,6 +58,19 @@ export default class PlayerDetailsController {
 			}
 		);
 	}
+	/**
+	 * Change the sorting for the player details table
+	 * @param {[[Type]]} column [[Description]]
+	 */
+	changeSorting(column) {
+		let sort = this.sort;
+        if (sort.column === column) {
+            sort.descending = !sort.descending;
+        } else {
+            sort.column = column;
+            sort.descending = false;
+        }
+    };
 	/**
 	 * Returns name of PlayerDetailsController
 	 * @returns {string} - 'PlayerDetailsController'

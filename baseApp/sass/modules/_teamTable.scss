@@ -1,4 +1,4 @@
-.teamRow{
+.teamRow, .player-details th{
   cursor: pointer;
 }
 .rssLink{
@@ -6,4 +6,26 @@
 }
 .crest{
 padding: 5em;
+}
+
+/*.player-details th.sortDesc {
+	background: red;
+	content: "&#9650";
+}*/
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-bottom: 5px solid black;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #f00;
 }
