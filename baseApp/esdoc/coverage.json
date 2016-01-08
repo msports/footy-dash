@@ -1,108 +1,51 @@
 {
-  "coverage": "4.08%",
-  "expectCount": 318,
-  "actualCount": 13,
+  "coverage": "21.88%",
+  "expectCount": 297,
+  "actualCount": 65,
   "files": {
-    "js/features/common/ui/Footer.js": {
-      "expectCount": 7,
-      "actualCount": 0,
+    "js/features/common/ui/RouteIndicator.js": {
+      "expectCount": 5,
+      "actualCount": 4,
       "undocumentLines": [
-        18,
-        14,
-        25,
-        21,
-        16,
-        29,
-        34
+        27
       ]
     },
     "js/features/common/ui/TopNavbar.js": {
-      "expectCount": 7,
-      "actualCount": 0,
+      "expectCount": 5,
+      "actualCount": 4,
       "undocumentLines": [
-        21,
-        17,
+        27
+      ]
+    },
+    "js/features/common/ui/Footer.js": {
+      "expectCount": 5,
+      "actualCount": 2,
+      "undocumentLines": [
         25,
-        19,
-        33,
-        41,
-        29
-      ]
-    },
-    "js/features/common/ui/Accordian.js": {
-      "expectCount": 7,
-      "actualCount": 0,
-      "undocumentLines": [
-        20,
-        16,
-        24,
-        18,
-        32,
-        40,
-        28
-      ]
-    },
-    "js/features/common/ui/ButtonGroup.js": {
-      "expectCount": 7,
-      "actualCount": 0,
-      "undocumentLines": [
-        21,
-        17,
-        25,
-        19,
-        33,
-        41,
-        29
-      ]
-    },
-    "js/features/common/ui/RouteIndicator.js": {
-      "expectCount": 6,
-      "actualCount": 0,
-      "undocumentLines": [
-        19,
-        15,
-        17,
-        33,
-        40,
-        22
-      ]
-    },
-    "js/features/common/controllers/AccordianController.js": {
-      "expectCount": 4,
-      "actualCount": 0,
-      "undocumentLines": [
-        2,
-        15,
-        4,
-        10
+        28,
+        32
       ]
     },
     "js/features/common/directives/AccordianDirective.js": {
-      "expectCount": 11,
-      "actualCount": 0,
+      "expectCount": 8,
+      "actualCount": 3,
       "undocumentLines": [
-        10,
-        33,
         17,
-        12,
         18,
-        19,
-        24,
-        15,
-        14,
         16,
-        13
+        15,
+        19
       ]
     },
     "js/main.js": {
       "expectCount": 15,
       "actualCount": 10,
       "undocumentLines": [
-        67,
-        121,
-        25,
-        38,
-        26
+        125,
+        71,
+        29,
+        42,
+        30
       ]
     },
     "js/fw/lib/AppHttpResponseInterceptor.js": {
@@ -114,31 +57,26 @@
         61
       ]
     },
-    "js/features/common/controllers/ButtonGroupController.js": {
-      "expectCount": 4,
+    "js/fw/config/SSOConfig.js": {
+      "expectCount": 5,
       "actualCount": 0,
       "undocumentLines": [
-        1,
-        15,
-        3,
-        10
+        12,
+        29,
+        13,
+        24,
+        17
       ]
     },
-    "js/features/common/directives/ButtonGroupDirective.js": {
-      "expectCount": 11,
+    "js/fw/config/NotifierConfig.js": {
+      "expectCount": 5,
       "actualCount": 0,
       "undocumentLines": [
-        6,
         12,
-        33,
-        7,
+        27,
         13,
-        14,
-        18,
-        10,
-        9,
-        11,
-        8
+        22,
+        17
       ]
     },
     "js/fw/config/RouterConfig.js": {
@@ -153,17 +91,6 @@
         49
       ]
     },
-    "js/fw/config/SSOConfig.js": {
-      "expectCount": 5,
-      "actualCount": 0,
-      "undocumentLines": [
-        12,
-        29,
-        13,
-        24,
-        17
-      ]
-    },
     "js/fw/config/AppConfig.js": {
       "expectCount": 5,
       "actualCount": 1,
@@ -172,17 +99,6 @@
         29,
         19,
         24
-      ]
-    },
-    "js/fw/config/NotifierConfig.js": {
-      "expectCount": 5,
-      "actualCount": 0,
-      "undocumentLines": [
-        12,
-        27,
-        13,
-        22,
-        17
       ]
     },
     "js/fw/lib/ConfiguratorBase.js": {
@@ -213,19 +129,7 @@
         22
       ]
     },
-    "js/features/common/league_table/main.js": {
-      "expectCount": 6,
-      "actualCount": 0,
-      "undocumentLines": [
-        19,
-        25,
-        21,
-        33,
-        59,
-        29
-      ]
-    },
-    "js/features/common/player_details/main.js": {
+    "js/features/common/team_details/main.js": {
       "expectCount": 6,
       "actualCount": 0,
       "undocumentLines": [
@@ -233,31 +137,15 @@
         28,
         24,
         36,
-        63,
+        48,
         32
       ]
     },
-    "js/features/common/team_details/main.js": {
-      "expectCount": 6,
-      "actualCount": 0,
+    "js/features/common/player_details/main.js": {
+      "expectCount": 4,
+      "actualCount": 3,
       "undocumentLines": [
-        24,
-        30,
-        26,
-        38,
-        65,
-        34
-      ]
-    },
-    "js/features/common/ui/Info.js": {
-      "expectCount": 5,
-      "actualCount": 0,
-      "undocumentLines": [
-        13,
-        15,
-        49,
-        54,
-        19
+        33
       ]
     },
     "js/features/home/main.js": {
@@ -271,6 +159,32 @@
         49,
         25,
         32
+      ]
+    },
+    "js/features/common/league_table/main.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        30
+      ]
+    },
+    "js/features/common/rss_feed/main.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        19,
+        26,
+        21,
+        34,
+        41,
+        30
+      ]
+    },
+    "js/features/common/ui/Accordian.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        30
       ]
     },
     "js/fw/lib/FeatureBase.js": {
@@ -307,37 +221,40 @@
         19
       ]
     },
-    "js/features/home/controller/HomeController.js": {
-      "expectCount": 10,
+    "js/features/common/directives/FooterDirective.js": {
+      "expectCount": 7,
       "actualCount": 0,
       "undocumentLines": [
-        7,
-        13,
-        26,
-        32,
+        8,
         9,
+        18,
         15,
-        17,
-        48,
-        61,
-        56
+        12,
+        11,
+        10
       ]
     },
+    "js/features/home/controller/HomeController.js": {
+      "expectCount": 5,
+      "actualCount": 5,
+      "undocumentLines": []
+    },
     "js/features/home/directives/HomeDirective.js": {
-      "expectCount": 11,
+      "expectCount": 12,
       "actualCount": 0,
       "undocumentLines": [
-        10,
-        17,
         12,
-        24,
-        25,
-        53,
-        30,
-        15,
+        20,
         14,
+        27,
+        28,
+        34,
+        31,
+        17,
         16,
-        13
+        18,
+        15,
+        19
       ]
     },
     "js/fw/lib/InitBase.js": {
@@ -349,6 +266,16 @@
         16,
         13,
         20
+      ]
+    },
+    "js/fw/init/Validator.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        14,
+        18,
+        33
       ]
     },
     "js/fw/init/Header.js": {
@@ -375,102 +302,73 @@
         24
       ]
     },
-    "js/fw/init/Validator.js": {
-      "expectCount": 4,
-      "actualCount": 0,
-      "undocumentLines": [
-        13,
-        14,
-        18,
-        33
-      ]
-    },
     "js/features/common/league_table/controller/LeagueTableController.js": {
-      "expectCount": 12,
-      "actualCount": 0,
+      "expectCount": 14,
+      "actualCount": 6,
       "undocumentLines": [
-        6,
-        8,
-        15,
-        14,
-        24,
-        39,
-        49,
-        60,
-        55,
+        18,
+        11,
         17,
-        12,
-        13
+        21,
+        19,
+        22,
+        15,
+        16
       ]
     },
     "js/features/common/league_table/directives/LeagueTableDirective.js": {
       "expectCount": 11,
       "actualCount": 0,
       "undocumentLines": [
-        10,
-        17,
         12,
-        20,
-        21,
-        31,
-        26,
-        15,
+        19,
         14,
+        23,
+        24,
+        47,
+        30,
+        17,
         16,
-        13
+        18,
+        15
       ]
     },
-    "js/features/common/controllers/NavbarController.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        11
-      ]
-    },
-    "js/features/common/directives/NavigationDirective.js": {
+    "js/features/common/directives/TopNavbarDirective.js": {
       "expectCount": 7,
       "actualCount": 0,
       "undocumentLines": [
-        6,
-        7,
-        13,
-        40,
-        10,
+        8,
         9,
-        8
+        15,
+        42,
+        12,
+        11,
+        10
       ]
     },
     "js/features/common/player_details/controller/PlayerDetailsController.js": {
       "expectCount": 10,
-      "actualCount": 0,
+      "actualCount": 5,
       "undocumentLines": [
-        6,
-        19,
-        8,
-        15,
-        25,
-        33,
-        48,
-        20,
-        14,
-        43
+        23,
+        30,
+        39,
+        29,
+        32
       ]
     },
     "js/features/common/player_details/directives/PlayerDetailsDirective.js": {
-      "expectCount": 11,
-      "actualCount": 0,
+      "expectCount": 10,
+      "actualCount": 2,
       "undocumentLines": [
-        10,
         17,
-        12,
-        24,
-        25,
+        26,
+        29,
         30,
-        35,
-        15,
-        14,
-        16,
-        13
+        24,
+        23,
+        25,
+        22
       ]
     },
     "js/fw/service/RSSService.js": {
@@ -485,15 +383,24 @@
         16
       ]
     },
-    "js/fw/service/Events.js": {
+    "js/features/common/rss_feed/controller/RssFeedController.js": {
       "expectCount": 5,
-      "actualCount": 0,
+      "actualCount": 4,
       "undocumentLines": [
-        15,
-        16,
-        20,
-        61,
-        66
+        32
+      ]
+    },
+    "js/features/common/rss_feed/directives/RssFeedDirective.js": {
+      "expectCount": 9,
+      "actualCount": 2,
+      "undocumentLines": [
+        27,
+        23,
+        30,
+        31,
+        26,
+        25,
+        24
       ]
     },
     "js/fw/service/Utils.js": {
@@ -507,6 +414,17 @@
         118,
         97,
         19
+      ]
+    },
+    "js/fw/service/Events.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        15,
+        16,
+        20,
+        61,
+        66
       ]
     },
     "js/fw/lib/ServiceBase.js": {
@@ -524,38 +442,40 @@
       ]
     },
     "js/features/common/team_details/controller/TeamDetailsController.js": {
-      "expectCount": 13,
-      "actualCount": 1,
+      "expectCount": 15,
+      "actualCount": 6,
       "undocumentLines": [
-        6,
-        23,
-        8,
-        15,
-        14,
-        54,
-        70,
-        13,
-        75,
-        24,
-        60,
-        28
+        27,
+        30,
+        25,
+        97,
+        41,
+        80,
+        45,
+        28,
+        26
       ]
     },
     "js/features/common/team_details/directives/TeamDetailsDirective.js": {
-      "expectCount": 11,
+      "expectCount": 10,
+      "actualCount": 1,
+      "undocumentLines": [
+        15,
+        10,
+        19,
+        20,
+        23,
+        13,
+        12,
+        14,
+        11
+      ]
+    },
+    "js/features/common/controllers/TopNavbarController.js": {
+      "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        10,
-        17,
-        12,
-        20,
-        21,
-        26,
-        15,
-        14,
-        16,
-        31,
-        13
+        11
       ]
     },
     "js/fw/lib/Omit.js": {

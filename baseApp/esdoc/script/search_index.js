@@ -1,11 +1,5 @@
 window.esdocSearchIndex = [
   [
-    "baseapp/js/features/common/controllers/accordiancontroller.js~accordiancontroller",
-    "class/js/features/common/controllers/AccordianController.js~AccordianController.html",
-    "<span>AccordianController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/controllers/AccordianController.js</span>",
-    "class"
-  ],
-  [
     "baseapp/js/features/common/directives/accordiandirective.js~accordiandirective",
     "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html",
     "<span>AccordianDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/AccordianDirective.js</span>",
@@ -21,18 +15,6 @@ window.esdocSearchIndex = [
     "baseapp/js/fw/lib/apphttpresponseinterceptor.js~apphttpresponseinterceptor",
     "class/js/fw/lib/AppHttpResponseInterceptor.js~AppHttpResponseInterceptor.html",
     "<span>AppHttpResponseInterceptor</span> <span class=\"search-result-import-path\">baseApp/js/fw/lib/AppHttpResponseInterceptor.js</span>",
-    "class"
-  ],
-  [
-    "baseapp/js/features/common/controllers/buttongroupcontroller.js~buttongroupcontroller",
-    "class/js/features/common/controllers/ButtonGroupController.js~ButtonGroupController.html",
-    "<span>ButtonGroupController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/controllers/ButtonGroupController.js</span>",
-    "class"
-  ],
-  [
-    "baseapp/js/features/common/directives/buttongroupdirective.js~buttongroupdirective",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html",
-    "<span>ButtonGroupDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/ButtonGroupDirective.js</span>",
     "class"
   ],
   [
@@ -84,6 +66,12 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "baseapp/js/features/common/rss_feed/main.js~feature",
+    "class/js/features/common/rss_feed/main.js~Feature.html",
+    "<span>Feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/rss_feed/main.js</span>",
+    "class"
+  ],
+  [
     "baseapp/js/features/common/team_details/main.js~feature",
     "class/js/features/common/team_details/main.js~Feature.html",
     "<span>Feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/team_details/main.js</span>",
@@ -96,21 +84,9 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "baseapp/js/features/common/ui/buttongroup.js~feature",
-    "class/js/features/common/ui/ButtonGroup.js~Feature.html",
-    "<span>Feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/ui/ButtonGroup.js</span>",
-    "class"
-  ],
-  [
     "baseapp/js/features/common/ui/footer.js~feature",
     "class/js/features/common/ui/Footer.js~Feature.html",
     "<span>Feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/ui/Footer.js</span>",
-    "class"
-  ],
-  [
-    "baseapp/js/features/common/ui/info.js~feature",
-    "class/js/features/common/ui/Info.js~Feature.html",
-    "<span>Feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/ui/Info.js</span>",
     "class"
   ],
   [
@@ -141,6 +117,12 @@ window.esdocSearchIndex = [
     "baseapp/js/fw/service/footballdataservice.js~footballdataservice",
     "class/js/fw/service/FootballDataService.js~FootballDataService.html",
     "<span>FootballDataService</span> <span class=\"search-result-import-path\">baseApp/js/fw/service/FootballDataService.js</span>",
+    "class"
+  ],
+  [
+    "baseapp/js/features/common/directives/footerdirective.js~footerdirective",
+    "class/js/features/common/directives/FooterDirective.js~FooterDirective.html",
+    "<span>FooterDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/FooterDirective.js</span>",
     "class"
   ],
   [
@@ -192,15 +174,9 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "baseapp/js/features/common/controllers/navbarcontroller.js~navbarcontroller",
-    "function/index.html#static-function-NavbarController",
-    "<span>NavbarController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/controllers/NavbarController.js</span>",
-    "function"
-  ],
-  [
-    "baseapp/js/features/common/directives/navigationdirective.js~navigationdirective",
-    "class/js/features/common/directives/NavigationDirective.js~NavigationDirective.html",
-    "<span>NavigationDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/NavigationDirective.js</span>",
+    "baseapp/js/features/common/directives/topnavbardirective.js~navigationdirective",
+    "class/js/features/common/directives/TopNavbarDirective.js~NavigationDirective.html",
+    "<span>NavigationDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/TopNavbarDirective.js</span>",
     "class"
   ],
   [
@@ -219,6 +195,18 @@ window.esdocSearchIndex = [
     "baseapp/js/fw/service/rssservice.js~rssservice",
     "class/js/fw/service/RSSService.js~RSSService.html",
     "<span>RSSService</span> <span class=\"search-result-import-path\">baseApp/js/fw/service/RSSService.js</span>",
+    "class"
+  ],
+  [
+    "baseapp/js/features/common/rss_feed/controller/rssfeedcontroller.js~rssfeedcontroller",
+    "class/js/features/common/rss_feed/controller/RssFeedController.js~RssFeedController.html",
+    "<span>RssFeedController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/rss_feed/controller/RssFeedController.js</span>",
+    "class"
+  ],
+  [
+    "baseapp/js/features/common/rss_feed/directives/rssfeeddirective.js~rssfeeddirective",
+    "class/js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective.html",
+    "<span>RssFeedDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/rss_feed/directives/RssFeedDirective.js</span>",
     "class"
   ],
   [
@@ -252,16 +240,10 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "baseapp/js/features/common/controllers/accordiancontroller.js~accordiancontroller",
-    "variable/index.html#static-variable-accordianController",
-    "<span>accordianController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/controllers/AccordianController.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/directives/accordiandirective.js~accordiandirective",
-    "variable/index.html#static-variable-accordianDirective",
-    "<span>accordianDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/AccordianDirective.js</span>",
-    "variable"
+    "baseapp/js/features/common/controllers/topnavbarcontroller.js~topnavbarcontroller",
+    "function/index.html#static-function-TopNavbarController",
+    "<span>TopNavbarController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/controllers/TopNavbarController.js</span>",
+    "function"
   ],
   [
     "baseapp/js/main.js~app",
@@ -273,18 +255,6 @@ window.esdocSearchIndex = [
     "baseapp/js/fw/lib/apphttpresponseinterceptor.js~apphttpresponseinterceptor",
     "variable/index.html#static-variable-appHttpResponseInterceptor",
     "<span>appHttpResponseInterceptor</span> <span class=\"search-result-import-path\">baseApp/js/fw/lib/AppHttpResponseInterceptor.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/controllers/buttongroupcontroller.js~buttongroupcontroller",
-    "variable/index.html#static-variable-buttonGroupController",
-    "<span>buttonGroupController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/controllers/ButtonGroupController.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/directives/buttongroupdirective.js~buttongroupdirective",
-    "variable/index.html#static-variable-buttonGroupDirective",
-    "<span>buttonGroupDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/ButtonGroupDirective.js</span>",
     "variable"
   ],
   [
@@ -324,57 +294,15 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "baseapp/js/features/common/league_table/main.js~feature",
+    "baseapp/js/features/common/rss_feed/main.js~feature",
     "variable/index.html#static-variable-feature",
-    "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/league_table/main.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/player_details/main.js~feature",
-    "variable/index.html#static-variable-feature",
-    "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/player_details/main.js</span>",
+    "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/rss_feed/main.js</span>",
     "variable"
   ],
   [
     "baseapp/js/features/common/team_details/main.js~feature",
     "variable/index.html#static-variable-feature",
     "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/team_details/main.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/ui/accordian.js~feature",
-    "variable/index.html#static-variable-feature",
-    "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/ui/Accordian.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/ui/buttongroup.js~feature",
-    "variable/index.html#static-variable-feature",
-    "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/ui/ButtonGroup.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/ui/footer.js~feature",
-    "variable/index.html#static-variable-feature",
-    "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/ui/Footer.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/ui/info.js~feature",
-    "variable/index.html#static-variable-feature",
-    "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/ui/Info.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/ui/routeindicator.js~feature",
-    "variable/index.html#static-variable-feature",
-    "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/ui/RouteIndicator.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/ui/topnavbar.js~feature",
-    "variable/index.html#static-variable-feature",
-    "<span>feature</span> <span class=\"search-result-import-path\">baseApp/js/features/common/ui/TopNavbar.js</span>",
     "variable"
   ],
   [
@@ -396,9 +324,9 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "baseapp/js/features/home/controller/homecontroller.js~homecontroller",
-    "variable/index.html#static-variable-homeController",
-    "<span>homeController</span> <span class=\"search-result-import-path\">baseApp/js/features/home/controller/HomeController.js</span>",
+    "baseapp/js/features/common/directives/footerdirective.js~footerdirective",
+    "variable/index.html#static-variable-footerDirective",
+    "<span>footerDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/FooterDirective.js</span>",
     "variable"
   ],
   [
@@ -432,21 +360,15 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "baseapp/js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller",
-    "variable/index.html#static-variable-leagueTableController",
-    "<span>leagueTableController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/league_table/controller/LeagueTableController.js</span>",
-    "variable"
-  ],
-  [
     "baseapp/js/features/common/league_table/directives/leaguetabledirective.js~leaguetabledirective",
     "variable/index.html#static-variable-leagueTableDirective",
     "<span>leagueTableDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/league_table/directives/LeagueTableDirective.js</span>",
     "variable"
   ],
   [
-    "baseapp/js/features/common/directives/navigationdirective.js~navigationdirective",
+    "baseapp/js/features/common/directives/topnavbardirective.js~navigationdirective",
     "variable/index.html#static-variable-navigationDirective",
-    "<span>navigationDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/NavigationDirective.js</span>",
+    "<span>navigationDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/directives/TopNavbarDirective.js</span>",
     "variable"
   ],
   [
@@ -454,18 +376,6 @@ window.esdocSearchIndex = [
     "function/index.html#static-function-omit",
     "<span>omit</span> <span class=\"search-result-import-path\">baseApp/js/fw/lib/Omit.js</span>",
     "function"
-  ],
-  [
-    "baseapp/js/features/common/player_details/controller/playerdetailscontroller.js~playerdetailscontroller",
-    "variable/index.html#static-variable-playerDetailsController",
-    "<span>playerDetailsController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/player_details/controller/PlayerDetailsController.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/player_details/directives/playerdetailsdirective.js~playerdetailsdirective",
-    "variable/index.html#static-variable-playerDetailsDirective",
-    "<span>playerDetailsDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/player_details/directives/PlayerDetailsDirective.js</span>",
-    "variable"
   ],
   [
     "baseapp/js/fw/lib/pluck.js~pluck",
@@ -501,12 +411,6 @@ window.esdocSearchIndex = [
     "baseapp/js/features/common/team_details/controller/teamdetailscontroller.js~teamdetailscontroller",
     "variable/index.html#static-variable-teamDetailsController",
     "<span>teamDetailsController</span> <span class=\"search-result-import-path\">baseApp/js/features/common/team_details/controller/TeamDetailsController.js</span>",
-    "variable"
-  ],
-  [
-    "baseapp/js/features/common/team_details/directives/teamdetailsdirective.js~teamdetailsdirective",
-    "variable/index.html#static-variable-teamDetailsDirective",
-    "<span>teamDetailsDirective</span> <span class=\"search-result-import-path\">baseApp/js/features/common/team_details/directives/TeamDetailsDirective.js</span>",
     "variable"
   ],
   [
@@ -840,45 +744,9 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "js/features/common/controllers/accordiancontroller.js",
-    "file/js/features/common/controllers/AccordianController.js.html",
-    "js/features/common/controllers/AccordianController.js",
-    "file"
-  ],
-  [
-    "js/features/common/controllers/accordiancontroller.js~accordiancontroller#constructor",
-    "class/js/features/common/controllers/AccordianController.js~AccordianController.html#instance-constructor-constructor",
-    "js/features/common/controllers/AccordianController.js~AccordianController#constructor",
-    "method"
-  ],
-  [
-    "js/features/common/controllers/accordiancontroller.js~accordiancontroller#run",
-    "class/js/features/common/controllers/AccordianController.js~AccordianController.html#instance-method-run",
-    "js/features/common/controllers/AccordianController.js~AccordianController#run",
-    "method"
-  ],
-  [
-    "js/features/common/controllers/buttongroupcontroller.js",
-    "file/js/features/common/controllers/ButtonGroupController.js.html",
-    "js/features/common/controllers/ButtonGroupController.js",
-    "file"
-  ],
-  [
-    "js/features/common/controllers/buttongroupcontroller.js~buttongroupcontroller#constructor",
-    "class/js/features/common/controllers/ButtonGroupController.js~ButtonGroupController.html#instance-constructor-constructor",
-    "js/features/common/controllers/ButtonGroupController.js~ButtonGroupController#constructor",
-    "method"
-  ],
-  [
-    "js/features/common/controllers/buttongroupcontroller.js~buttongroupcontroller#run",
-    "class/js/features/common/controllers/ButtonGroupController.js~ButtonGroupController.html#instance-method-run",
-    "js/features/common/controllers/ButtonGroupController.js~ButtonGroupController#run",
-    "method"
-  ],
-  [
-    "js/features/common/controllers/navbarcontroller.js",
-    "file/js/features/common/controllers/NavbarController.js.html",
-    "js/features/common/controllers/NavbarController.js",
+    "js/features/common/controllers/topnavbarcontroller.js",
+    "file/js/features/common/controllers/TopNavbarController.js.html",
+    "js/features/common/controllers/TopNavbarController.js",
     "file"
   ],
   [
@@ -888,28 +756,10 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "js/features/common/directives/accordiandirective.js~accordiandirective#bindtocontroller",
-    "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html#instance-member-bindToController",
-    "js/features/common/directives/AccordianDirective.js~AccordianDirective#bindToController",
-    "member"
-  ],
-  [
     "js/features/common/directives/accordiandirective.js~accordiandirective#constructor",
     "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html#instance-constructor-constructor",
     "js/features/common/directives/AccordianDirective.js~AccordianDirective#constructor",
     "method"
-  ],
-  [
-    "js/features/common/directives/accordiandirective.js~accordiandirective#controller",
-    "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html#instance-member-controller",
-    "js/features/common/directives/AccordianDirective.js~AccordianDirective#controller",
-    "member"
-  ],
-  [
-    "js/features/common/directives/accordiandirective.js~accordiandirective#controlleras",
-    "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html#instance-member-controllerAs",
-    "js/features/common/directives/AccordianDirective.js~AccordianDirective#controllerAs",
-    "member"
   ],
   [
     "js/features/common/directives/accordiandirective.js~accordiandirective#link",
@@ -924,15 +774,15 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
-    "js/features/common/directives/accordiandirective.js~accordiandirective#restrict",
-    "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html#instance-member-restrict",
-    "js/features/common/directives/AccordianDirective.js~AccordianDirective#restrict",
+    "js/features/common/directives/accordiandirective.js~accordiandirective#require",
+    "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html#instance-member-require",
+    "js/features/common/directives/AccordianDirective.js~AccordianDirective#require",
     "member"
   ],
   [
-    "js/features/common/directives/accordiandirective.js~accordiandirective#scope",
-    "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html#instance-member-scope",
-    "js/features/common/directives/AccordianDirective.js~AccordianDirective#scope",
+    "js/features/common/directives/accordiandirective.js~accordiandirective#restrict",
+    "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html#instance-member-restrict",
+    "js/features/common/directives/AccordianDirective.js~AccordianDirective#restrict",
     "member"
   ],
   [
@@ -942,99 +792,81 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
-    "js/features/common/directives/buttongroupdirective.js",
-    "file/js/features/common/directives/ButtonGroupDirective.js.html",
-    "js/features/common/directives/ButtonGroupDirective.js",
+    "js/features/common/directives/accordiandirective.js~accordiandirective#transclude",
+    "class/js/features/common/directives/AccordianDirective.js~AccordianDirective.html#instance-member-transclude",
+    "js/features/common/directives/AccordianDirective.js~AccordianDirective#transclude",
+    "member"
+  ],
+  [
+    "js/features/common/directives/footerdirective.js",
+    "file/js/features/common/directives/FooterDirective.js.html",
+    "js/features/common/directives/FooterDirective.js",
     "file"
   ],
   [
-    "js/features/common/directives/buttongroupdirective.js~buttongroupdirective#bindtocontroller",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html#instance-member-bindToController",
-    "js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective#bindToController",
-    "member"
-  ],
-  [
-    "js/features/common/directives/buttongroupdirective.js~buttongroupdirective#constructor",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html#instance-constructor-constructor",
-    "js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective#constructor",
+    "js/features/common/directives/footerdirective.js~footerdirective#constructor",
+    "class/js/features/common/directives/FooterDirective.js~FooterDirective.html#instance-constructor-constructor",
+    "js/features/common/directives/FooterDirective.js~FooterDirective#constructor",
     "method"
   ],
   [
-    "js/features/common/directives/buttongroupdirective.js~buttongroupdirective#controller",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html#instance-member-controller",
-    "js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective#controller",
-    "member"
-  ],
-  [
-    "js/features/common/directives/buttongroupdirective.js~buttongroupdirective#controlleras",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html#instance-member-controllerAs",
-    "js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective#controllerAs",
-    "member"
-  ],
-  [
-    "js/features/common/directives/buttongroupdirective.js~buttongroupdirective#link",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html#instance-method-link",
-    "js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective#link",
+    "js/features/common/directives/footerdirective.js~footerdirective#link",
+    "class/js/features/common/directives/FooterDirective.js~FooterDirective.html#instance-method-link",
+    "js/features/common/directives/FooterDirective.js~FooterDirective#link",
     "method"
   ],
   [
-    "js/features/common/directives/buttongroupdirective.js~buttongroupdirective#replace",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html#instance-member-replace",
-    "js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective#replace",
+    "js/features/common/directives/footerdirective.js~footerdirective#replace",
+    "class/js/features/common/directives/FooterDirective.js~FooterDirective.html#instance-member-replace",
+    "js/features/common/directives/FooterDirective.js~FooterDirective#replace",
     "member"
   ],
   [
-    "js/features/common/directives/buttongroupdirective.js~buttongroupdirective#restrict",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html#instance-member-restrict",
-    "js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective#restrict",
+    "js/features/common/directives/footerdirective.js~footerdirective#restrict",
+    "class/js/features/common/directives/FooterDirective.js~FooterDirective.html#instance-member-restrict",
+    "js/features/common/directives/FooterDirective.js~FooterDirective#restrict",
     "member"
   ],
   [
-    "js/features/common/directives/buttongroupdirective.js~buttongroupdirective#scope",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html#instance-member-scope",
-    "js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective#scope",
+    "js/features/common/directives/footerdirective.js~footerdirective#templateurl",
+    "class/js/features/common/directives/FooterDirective.js~FooterDirective.html#instance-member-templateUrl",
+    "js/features/common/directives/FooterDirective.js~FooterDirective#templateUrl",
     "member"
   ],
   [
-    "js/features/common/directives/buttongroupdirective.js~buttongroupdirective#templateurl",
-    "class/js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective.html#instance-member-templateUrl",
-    "js/features/common/directives/ButtonGroupDirective.js~ButtonGroupDirective#templateUrl",
-    "member"
-  ],
-  [
-    "js/features/common/directives/navigationdirective.js",
-    "file/js/features/common/directives/NavigationDirective.js.html",
-    "js/features/common/directives/NavigationDirective.js",
+    "js/features/common/directives/topnavbardirective.js",
+    "file/js/features/common/directives/TopNavbarDirective.js.html",
+    "js/features/common/directives/TopNavbarDirective.js",
     "file"
   ],
   [
-    "js/features/common/directives/navigationdirective.js~navigationdirective#constructor",
-    "class/js/features/common/directives/NavigationDirective.js~NavigationDirective.html#instance-constructor-constructor",
-    "js/features/common/directives/NavigationDirective.js~NavigationDirective#constructor",
+    "js/features/common/directives/topnavbardirective.js~navigationdirective#constructor",
+    "class/js/features/common/directives/TopNavbarDirective.js~NavigationDirective.html#instance-constructor-constructor",
+    "js/features/common/directives/TopNavbarDirective.js~NavigationDirective#constructor",
     "method"
   ],
   [
-    "js/features/common/directives/navigationdirective.js~navigationdirective#link",
-    "class/js/features/common/directives/NavigationDirective.js~NavigationDirective.html#instance-method-link",
-    "js/features/common/directives/NavigationDirective.js~NavigationDirective#link",
+    "js/features/common/directives/topnavbardirective.js~navigationdirective#link",
+    "class/js/features/common/directives/TopNavbarDirective.js~NavigationDirective.html#instance-method-link",
+    "js/features/common/directives/TopNavbarDirective.js~NavigationDirective#link",
     "method"
   ],
   [
-    "js/features/common/directives/navigationdirective.js~navigationdirective#replace",
-    "class/js/features/common/directives/NavigationDirective.js~NavigationDirective.html#instance-member-replace",
-    "js/features/common/directives/NavigationDirective.js~NavigationDirective#replace",
+    "js/features/common/directives/topnavbardirective.js~navigationdirective#replace",
+    "class/js/features/common/directives/TopNavbarDirective.js~NavigationDirective.html#instance-member-replace",
+    "js/features/common/directives/TopNavbarDirective.js~NavigationDirective#replace",
     "member"
   ],
   [
-    "js/features/common/directives/navigationdirective.js~navigationdirective#restrict",
-    "class/js/features/common/directives/NavigationDirective.js~NavigationDirective.html#instance-member-restrict",
-    "js/features/common/directives/NavigationDirective.js~NavigationDirective#restrict",
+    "js/features/common/directives/topnavbardirective.js~navigationdirective#restrict",
+    "class/js/features/common/directives/TopNavbarDirective.js~NavigationDirective.html#instance-member-restrict",
+    "js/features/common/directives/TopNavbarDirective.js~NavigationDirective#restrict",
     "member"
   ],
   [
-    "js/features/common/directives/navigationdirective.js~navigationdirective#templateurl",
-    "class/js/features/common/directives/NavigationDirective.js~NavigationDirective.html#instance-member-templateUrl",
-    "js/features/common/directives/NavigationDirective.js~NavigationDirective#templateUrl",
+    "js/features/common/directives/topnavbardirective.js~navigationdirective#templateurl",
+    "class/js/features/common/directives/TopNavbarDirective.js~NavigationDirective.html#instance-member-templateUrl",
+    "js/features/common/directives/TopNavbarDirective.js~NavigationDirective#templateUrl",
     "member"
   ],
   [
@@ -1044,16 +876,16 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller#config",
+    "class/js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController.html#instance-member-config",
+    "js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController#config",
+    "member"
+  ],
+  [
     "js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller#constructor",
     "class/js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController.html#instance-constructor-constructor",
     "js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController#constructor",
     "method"
-  ],
-  [
-    "js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller#events",
-    "class/js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController.html#instance-member-events",
-    "js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController#events",
-    "member"
   ],
   [
     "js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller#filter",
@@ -1080,6 +912,18 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller#getteamstats",
+    "class/js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController.html#instance-method-getTeamStats",
+    "js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController#getTeamStats",
+    "method"
+  ],
+  [
+    "js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller#leagues",
+    "class/js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController.html#instance-member-leagues",
+    "js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController#leagues",
+    "member"
+  ],
+  [
     "js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller#run",
     "class/js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController.html#instance-method-run",
     "js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController#run",
@@ -1089,6 +933,12 @@ window.esdocSearchIndex = [
     "js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller#scope",
     "class/js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController.html#instance-member-scope",
     "js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController#scope",
+    "member"
+  ],
+  [
+    "js/features/common/league_table/controller/leaguetablecontroller.js~leaguetablecontroller#selectedleague",
+    "class/js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController.html#instance-member-selectedLeague",
+    "js/features/common/league_table/controller/LeagueTableController.js~LeagueTableController#selectedLeague",
     "member"
   ],
   [
@@ -1188,12 +1038,6 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "js/features/common/league_table/main.js~feature#templatecaching",
-    "class/js/features/common/league_table/main.js~Feature.html#instance-method-templateCaching",
-    "js/features/common/league_table/main.js~Feature#templateCaching",
-    "method"
-  ],
-  [
     "js/features/common/main.js",
     "file/js/features/common/main.js.html",
     "js/features/common/main.js",
@@ -1209,6 +1053,12 @@ window.esdocSearchIndex = [
     "js/features/common/player_details/controller/playerdetailscontroller.js~playerdetailscontroller#addlisteners",
     "class/js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController.html#instance-method-addListeners",
     "js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController#addListeners",
+    "method"
+  ],
+  [
+    "js/features/common/player_details/controller/playerdetailscontroller.js~playerdetailscontroller#changesorting",
+    "class/js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController.html#instance-method-changeSorting",
+    "js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController#changeSorting",
     "method"
   ],
   [
@@ -1230,12 +1080,6 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "js/features/common/player_details/controller/playerdetailscontroller.js~playerdetailscontroller#initload",
-    "class/js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController.html#instance-member-initLoad",
-    "js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController#initLoad",
-    "member"
-  ],
-  [
     "js/features/common/player_details/controller/playerdetailscontroller.js~playerdetailscontroller#playerdetailslistener",
     "class/js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController.html#instance-member-playerDetailsListener",
     "js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController#playerDetailsListener",
@@ -1252,6 +1096,12 @@ window.esdocSearchIndex = [
     "class/js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController.html#instance-method-run",
     "js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController#run",
     "method"
+  ],
+  [
+    "js/features/common/player_details/controller/playerdetailscontroller.js~playerdetailscontroller#sort",
+    "class/js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController.html#instance-member-sort",
+    "js/features/common/player_details/controller/PlayerDetailsController.js~PlayerDetailsController#sort",
+    "member"
   ],
   [
     "js/features/common/player_details/directives/playerdetailsdirective.js",
@@ -1338,9 +1188,117 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "js/features/common/player_details/main.js~feature#templatecaching",
-    "class/js/features/common/player_details/main.js~Feature.html#instance-method-templateCaching",
-    "js/features/common/player_details/main.js~Feature#templateCaching",
+    "js/features/common/rss_feed/controller/rssfeedcontroller.js",
+    "file/js/features/common/rss_feed/controller/RssFeedController.js.html",
+    "js/features/common/rss_feed/controller/RssFeedController.js",
+    "file"
+  ],
+  [
+    "js/features/common/rss_feed/controller/rssfeedcontroller.js~rssfeedcontroller#constructor",
+    "class/js/features/common/rss_feed/controller/RssFeedController.js~RssFeedController.html#instance-constructor-constructor",
+    "js/features/common/rss_feed/controller/RssFeedController.js~RssFeedController#constructor",
+    "method"
+  ],
+  [
+    "js/features/common/rss_feed/controller/rssfeedcontroller.js~rssfeedcontroller#feeds",
+    "class/js/features/common/rss_feed/controller/RssFeedController.js~RssFeedController.html#instance-member-feeds",
+    "js/features/common/rss_feed/controller/RssFeedController.js~RssFeedController#feeds",
+    "member"
+  ],
+  [
+    "js/features/common/rss_feed/controller/rssfeedcontroller.js~rssfeedcontroller#getrssfeed",
+    "class/js/features/common/rss_feed/controller/RssFeedController.js~RssFeedController.html#instance-method-getRssFeed",
+    "js/features/common/rss_feed/controller/RssFeedController.js~RssFeedController#getRssFeed",
+    "method"
+  ],
+  [
+    "js/features/common/rss_feed/controller/rssfeedcontroller.js~rssfeedcontroller#run",
+    "class/js/features/common/rss_feed/controller/RssFeedController.js~RssFeedController.html#instance-method-run",
+    "js/features/common/rss_feed/controller/RssFeedController.js~RssFeedController#run",
+    "method"
+  ],
+  [
+    "js/features/common/rss_feed/directives/rssfeeddirective.js",
+    "file/js/features/common/rss_feed/directives/RssFeedDirective.js.html",
+    "js/features/common/rss_feed/directives/RssFeedDirective.js",
+    "file"
+  ],
+  [
+    "js/features/common/rss_feed/directives/rssfeeddirective.js~rssfeeddirective#bindtocontroller",
+    "class/js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective.html#instance-member-bindToController",
+    "js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective#bindToController",
+    "member"
+  ],
+  [
+    "js/features/common/rss_feed/directives/rssfeeddirective.js~rssfeeddirective#constructor",
+    "class/js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective.html#instance-constructor-constructor",
+    "js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective#constructor",
+    "method"
+  ],
+  [
+    "js/features/common/rss_feed/directives/rssfeeddirective.js~rssfeeddirective#controller",
+    "class/js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective.html#instance-member-controller",
+    "js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective#controller",
+    "member"
+  ],
+  [
+    "js/features/common/rss_feed/directives/rssfeeddirective.js~rssfeeddirective#controlleras",
+    "class/js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective.html#instance-member-controllerAs",
+    "js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective#controllerAs",
+    "member"
+  ],
+  [
+    "js/features/common/rss_feed/directives/rssfeeddirective.js~rssfeeddirective#link",
+    "class/js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective.html#instance-method-link",
+    "js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective#link",
+    "method"
+  ],
+  [
+    "js/features/common/rss_feed/directives/rssfeeddirective.js~rssfeeddirective#replace",
+    "class/js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective.html#instance-member-replace",
+    "js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective#replace",
+    "member"
+  ],
+  [
+    "js/features/common/rss_feed/directives/rssfeeddirective.js~rssfeeddirective#restrict",
+    "class/js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective.html#instance-member-restrict",
+    "js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective#restrict",
+    "member"
+  ],
+  [
+    "js/features/common/rss_feed/directives/rssfeeddirective.js~rssfeeddirective#templateurl",
+    "class/js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective.html#instance-member-templateUrl",
+    "js/features/common/rss_feed/directives/RssFeedDirective.js~RssFeedDirective#templateUrl",
+    "member"
+  ],
+  [
+    "js/features/common/rss_feed/main.js",
+    "file/js/features/common/rss_feed/main.js.html",
+    "js/features/common/rss_feed/main.js",
+    "file"
+  ],
+  [
+    "js/features/common/rss_feed/main.js~feature#beforestart",
+    "class/js/features/common/rss_feed/main.js~Feature.html#instance-method-beforeStart",
+    "js/features/common/rss_feed/main.js~Feature#beforeStart",
+    "method"
+  ],
+  [
+    "js/features/common/rss_feed/main.js~feature#constructor",
+    "class/js/features/common/rss_feed/main.js~Feature.html#instance-constructor-constructor",
+    "js/features/common/rss_feed/main.js~Feature#constructor",
+    "method"
+  ],
+  [
+    "js/features/common/rss_feed/main.js~feature#execute",
+    "class/js/features/common/rss_feed/main.js~Feature.html#instance-method-execute",
+    "js/features/common/rss_feed/main.js~Feature#execute",
+    "method"
+  ],
+  [
+    "js/features/common/rss_feed/main.js~feature#templatecaching",
+    "class/js/features/common/rss_feed/main.js~Feature.html#instance-method-templateCaching",
+    "js/features/common/rss_feed/main.js~Feature#templateCaching",
     "method"
   ],
   [
@@ -1362,12 +1320,6 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "js/features/common/team_details/controller/teamdetailscontroller.js~teamdetailscontroller#events",
-    "class/js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController.html#instance-member-events",
-    "js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController#events",
-    "member"
-  ],
-  [
     "js/features/common/team_details/controller/teamdetailscontroller.js~teamdetailscontroller#filter",
     "class/js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController.html#instance-member-filter",
     "js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController#filter",
@@ -1384,6 +1336,12 @@ window.esdocSearchIndex = [
     "class/js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController.html#instance-method-getTeamFixtures",
     "js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController#getTeamFixtures",
     "method"
+  ],
+  [
+    "js/features/common/team_details/controller/teamdetailscontroller.js~teamdetailscontroller#name",
+    "class/js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController.html#instance-member-name",
+    "js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController#name",
+    "member"
   ],
   [
     "js/features/common/team_details/controller/teamdetailscontroller.js~teamdetailscontroller#run",
@@ -1413,6 +1371,18 @@ window.esdocSearchIndex = [
     "js/features/common/team_details/controller/teamdetailscontroller.js~teamdetailscontroller#teamfixtureslistener",
     "class/js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController.html#instance-member-teamFixturesListener",
     "js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController#teamFixturesListener",
+    "member"
+  ],
+  [
+    "js/features/common/team_details/controller/teamdetailscontroller.js~teamdetailscontroller#teamid",
+    "class/js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController.html#instance-member-teamID",
+    "js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController#teamID",
+    "member"
+  ],
+  [
+    "js/features/common/team_details/controller/teamdetailscontroller.js~teamdetailscontroller#teamstats",
+    "class/js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController.html#instance-member-teamStats",
+    "js/features/common/team_details/controller/TeamDetailsController.js~TeamDetailsController#teamStats",
     "member"
   ],
   [
@@ -1512,12 +1482,6 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "js/features/common/ui/accordian.js~feature#$body",
-    "class/js/features/common/ui/Accordian.js~Feature.html#instance-member-$body",
-    "js/features/common/ui/Accordian.js~Feature#$body",
-    "member"
-  ],
-  [
     "js/features/common/ui/accordian.js~feature#beforestart",
     "class/js/features/common/ui/Accordian.js~Feature.html#instance-method-beforeStart",
     "js/features/common/ui/Accordian.js~Feature#beforeStart",
@@ -1536,48 +1500,6 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "js/features/common/ui/accordian.js~feature#templatecaching",
-    "class/js/features/common/ui/Accordian.js~Feature.html#instance-method-templateCaching",
-    "js/features/common/ui/Accordian.js~Feature#templateCaching",
-    "method"
-  ],
-  [
-    "js/features/common/ui/buttongroup.js",
-    "file/js/features/common/ui/ButtonGroup.js.html",
-    "js/features/common/ui/ButtonGroup.js",
-    "file"
-  ],
-  [
-    "js/features/common/ui/buttongroup.js~feature#$body",
-    "class/js/features/common/ui/ButtonGroup.js~Feature.html#instance-member-$body",
-    "js/features/common/ui/ButtonGroup.js~Feature#$body",
-    "member"
-  ],
-  [
-    "js/features/common/ui/buttongroup.js~feature#beforestart",
-    "class/js/features/common/ui/ButtonGroup.js~Feature.html#instance-method-beforeStart",
-    "js/features/common/ui/ButtonGroup.js~Feature#beforeStart",
-    "method"
-  ],
-  [
-    "js/features/common/ui/buttongroup.js~feature#constructor",
-    "class/js/features/common/ui/ButtonGroup.js~Feature.html#instance-constructor-constructor",
-    "js/features/common/ui/ButtonGroup.js~Feature#constructor",
-    "method"
-  ],
-  [
-    "js/features/common/ui/buttongroup.js~feature#execute",
-    "class/js/features/common/ui/ButtonGroup.js~Feature.html#instance-method-execute",
-    "js/features/common/ui/ButtonGroup.js~Feature#execute",
-    "method"
-  ],
-  [
-    "js/features/common/ui/buttongroup.js~feature#templatecaching",
-    "class/js/features/common/ui/ButtonGroup.js~Feature.html#instance-method-templateCaching",
-    "js/features/common/ui/ButtonGroup.js~Feature#templateCaching",
-    "method"
-  ],
-  [
     "js/features/common/ui/footer.js",
     "file/js/features/common/ui/Footer.js.html",
     "js/features/common/ui/Footer.js",
@@ -1588,12 +1510,6 @@ window.esdocSearchIndex = [
     "class/js/features/common/ui/Footer.js~Feature.html#instance-member-$body",
     "js/features/common/ui/Footer.js~Feature#$body",
     "member"
-  ],
-  [
-    "js/features/common/ui/footer.js~feature#footerctrl",
-    "class/js/features/common/ui/Footer.js~Feature.html#instance-method-FooterCtrl",
-    "js/features/common/ui/Footer.js~Feature#FooterCtrl",
-    "method"
   ],
   [
     "js/features/common/ui/footer.js~feature#beforestart",
@@ -1611,30 +1527,6 @@ window.esdocSearchIndex = [
     "js/features/common/ui/footer.js~feature#execute",
     "class/js/features/common/ui/Footer.js~Feature.html#instance-method-execute",
     "js/features/common/ui/Footer.js~Feature#execute",
-    "method"
-  ],
-  [
-    "js/features/common/ui/info.js",
-    "file/js/features/common/ui/Info.js.html",
-    "js/features/common/ui/Info.js",
-    "file"
-  ],
-  [
-    "js/features/common/ui/info.js~feature#constructor",
-    "class/js/features/common/ui/Info.js~Feature.html#instance-constructor-constructor",
-    "js/features/common/ui/Info.js~Feature#constructor",
-    "method"
-  ],
-  [
-    "js/features/common/ui/info.js~feature#execute",
-    "class/js/features/common/ui/Info.js~Feature.html#instance-method-execute",
-    "js/features/common/ui/Info.js~Feature#execute",
-    "method"
-  ],
-  [
-    "js/features/common/ui/info.js~feature#infoevent",
-    "class/js/features/common/ui/Info.js~Feature.html#instance-method-infoEvent",
-    "js/features/common/ui/Info.js~Feature#infoEvent",
     "method"
   ],
   [
@@ -1698,12 +1590,6 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "js/features/common/ui/topnavbar.js~feature#templatecaching",
-    "class/js/features/common/ui/TopNavbar.js~Feature.html#instance-method-templateCaching",
-    "js/features/common/ui/TopNavbar.js~Feature#templateCaching",
-    "method"
-  ],
-  [
     "js/features/common/ui/main.js",
     "file/js/features/common/ui/main.js.html",
     "js/features/common/ui/main.js",
@@ -1722,12 +1608,6 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "js/features/home/controller/homecontroller.js~homecontroller#rssservice",
-    "class/js/features/home/controller/HomeController.js~HomeController.html#instance-member-RSSService",
-    "js/features/home/controller/HomeController.js~HomeController#RSSService",
-    "member"
-  ],
-  [
     "js/features/home/controller/homecontroller.js~homecontroller#addlisteners",
     "class/js/features/home/controller/HomeController.js~HomeController.html#instance-method-addListeners",
     "js/features/home/controller/HomeController.js~HomeController#addListeners",
@@ -1743,24 +1623,6 @@ window.esdocSearchIndex = [
     "js/features/home/controller/homecontroller.js~homecontroller#constructor",
     "class/js/features/home/controller/HomeController.js~HomeController.html#instance-constructor-constructor",
     "js/features/home/controller/HomeController.js~HomeController#constructor",
-    "method"
-  ],
-  [
-    "js/features/home/controller/homecontroller.js~homecontroller#feeds",
-    "class/js/features/home/controller/HomeController.js~HomeController.html#instance-member-feeds",
-    "js/features/home/controller/HomeController.js~HomeController#feeds",
-    "member"
-  ],
-  [
-    "js/features/home/controller/homecontroller.js~homecontroller#filter",
-    "class/js/features/home/controller/HomeController.js~HomeController.html#instance-member-filter",
-    "js/features/home/controller/HomeController.js~HomeController#filter",
-    "member"
-  ],
-  [
-    "js/features/home/controller/homecontroller.js~homecontroller#getrssfeed",
-    "class/js/features/home/controller/HomeController.js~HomeController.html#instance-method-getRSSFeed",
-    "js/features/home/controller/HomeController.js~HomeController#getRSSFeed",
     "method"
   ],
   [
@@ -1827,6 +1689,12 @@ window.esdocSearchIndex = [
     "js/features/home/directives/homedirective.js~homedirective#templateurl",
     "class/js/features/home/directives/HomeDirective.js~HomeDirective.html#instance-member-templateUrl",
     "js/features/home/directives/HomeDirective.js~HomeDirective#templateUrl",
+    "member"
+  ],
+  [
+    "js/features/home/directives/homedirective.js~homedirective#transclude",
+    "class/js/features/home/directives/HomeDirective.js~HomeDirective.html#instance-member-transclude",
+    "js/features/home/directives/HomeDirective.js~HomeDirective#transclude",
     "member"
   ],
   [
