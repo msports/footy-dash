@@ -9,6 +9,7 @@
  * ******************************************************************************************************
  */
 'use strict';
+
 import {element} from 'angular';
 import FeatureBase from 'lib/FeatureBase';
 import Routes from './Routes';

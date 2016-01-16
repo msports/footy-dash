@@ -1,7 +1,7 @@
 /**
  * ******************************************************************************************************
  *
- *   Defines a HomeController
+ *  Defines a HomeController
  *
  *  @author  Chip
  *  @date    Jan 7, 2016
