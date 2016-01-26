@@ -268,12 +268,15 @@ header.navigation {
       clear: none;
       float: right;
     }
-  }
+  } 
+	//Title, Footy icon
+	.appTitle{
+		margin:.5em .5em 0;		
+	}
+	
 
-	//Footy icon
-	.footy-footballer-icon{
-		color:#fff;
-        font-size:3em;
+	.appTitle, .footy-footballer-icon{
+	    float:left;
 	}
   // Search bar
 

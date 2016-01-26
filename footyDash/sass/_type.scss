@@ -1,8 +1,7 @@
 $fonts: (
    eyebrow: "'Helvetica Neue', Helvetica, Arial, sans-serif",
-   copy:  "'jaf-bernino-sans', sans-serif",
-   headline: "'jaf-bernino-sans', sans-serif",
-   box-title:  "'Whitney SSm A', 'Whitney SSm B', 'Trebuchet MS', sans-serif",
+   copy:  "'Source Sans Pro', sans-serif",
+   headline: "'Source Sans Pro', sans-serif",
 ); 
 
 // @mixin font
@@ -28,8 +27,8 @@ $fonts: (
     font-weight: normal;
 }
 h1{
-  color: $blue;
-	font-weight:bold;
+    color: $white-type;
+	font-weight:700;
 }
  h2, h3, h4, h5{
     color: $grey-type;
@@ -88,7 +87,16 @@ $sizes: xl, l, m, s, hero-l, hero-m, hero-s;
         }
     }
 };
-
+.appTitle{
+	font-size: em(28);
+	color: $white-type;
+	font-weight:700;
+	font-style:italic;
+}
+.footy-footballer-icon{
+		color:$white-type;
+        font-size:3em;
+}
 
 .headline + p,
 .headline + .description,
