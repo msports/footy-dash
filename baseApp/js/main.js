@@ -26,7 +26,7 @@ class App {
      * Constructor
      */
     constructor() {
-        this.appName = 'baseApp';
+        this.appName = 'footyDash';
         this.features = [];
         
 		Features.forEach(function(Feature) {

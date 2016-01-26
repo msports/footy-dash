@@ -15,7 +15,7 @@ module.exports = {
 		publicPath: 'js/'
 	},	
     debug: true,
-    devtool: 'sourcemap',	
+    //devtool: 'sourcemap',	
 	module: {
 		preLoaders: [
 			{
@@ -27,7 +27,7 @@ module.exports = {
 		loaders: [
 			{
 				test: /\.css$/,
-				loader: 'style/useable!css!autoprefixer?browsers=last 5 version!'
+				loader: 'style/useable!css!'
             },
 			{
 				test: /\.scss$/,
@@ -66,7 +66,11 @@ module.exports = {
 			compress: {
 				warnings: false,
 			},
-			 mangle: false
+			  mangle: false,
+			  comments: false,
+			  compress : {
+				screw_ie8 : true
+			  },
 		}),
 		new ngAnnotatePlugin({add: true}),
         new webpack.optimize.CommonsChunkPlugin('[hash].common.bundle.js'),
