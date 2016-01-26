@@ -25,6 +25,9 @@
   border: $table-border;
   width: 100%;
     @include outer-container;
+	
+
+  table-layout: auto;
 
   tbody {
     background-color: $table-background;

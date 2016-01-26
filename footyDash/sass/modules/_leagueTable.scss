@@ -1,6 +1,17 @@
 .teamRow, .player-details th{
   cursor: pointer;
 }
+.teamRow{
+	width:100%;
+}
+.teamRow td{
+	min-width:45%;
+	
+	&:nth-child(3) {
+	   min-width:10%;
+		text-align: right;
+	}
+}
 .rssLink{
 	padding: .5em;
 }

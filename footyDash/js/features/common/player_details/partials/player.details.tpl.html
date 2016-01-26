@@ -12,10 +12,10 @@
 		<tbody>
 			<!--<tr ng-repeat="player in vm.players | orderBy: '-marketValue | playerMarketValue'">-->
 			<tr ng-repeat="player in vm.players | orderBy: vm.sort.column : vm.sort.descending">
-				<td st-ratio="25">{{ player.name}}</td>
-				<td st-ratio="25">{{ player.position}}</td>
-				<td st-ratio="25">{{ player.jerseyNumber}}</td>
-				<td st-ratio="25">{{player.marketValue}}</td>
+				<td>{{ player.name}}</td>
+				<td>{{ player.position}}</td>
+				<td>{{ player.jerseyNumber}}</td>
+				<td>{{player.marketValue}}</td>
 			</tr>
 		</tbody>
 	</table>

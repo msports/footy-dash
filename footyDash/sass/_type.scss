@@ -27,7 +27,6 @@ $fonts: (
     font-weight: normal;
 }
 h1{
-    color: $white-type;
 	font-weight:700;
 }
  h2, h3, h4, h5{
@@ -42,19 +41,7 @@ p {
     hyphens: auto; 
 }
 
-blockquote :first-child:before,
-blockquote :last-child:after {
-    display: inline;
-    clear: none;
-}
-
-blockquote > p:first-child:before {
-    content: "\201c";
-}
-
-blockquote > p:last-child:after {
-    content: "\201d";
-} 
+ 
 
 // Generate some utility classes for consistent sizing
 // These should be applied on the component level, not on the individual elements
@@ -260,26 +247,7 @@ time,
     margin-left: 0;
     padding-left: 0;
 }
-.exhibit-list li {
-    font-weight:bold;
-    ul li:last-child {
-            margin-bottom: em(20, 32);
-    }
-    li{
-        font-weight:normal;
-        font-size: em(18, nth($article, 1));        
-    }
-    li + li {
-        font-size: em(16, nth($article, 1)); 
-    }
-}
 
-%sub-header {
-    @include font(box-title);
-    text-transform: uppercase;
-    letter-spacing: tracking(79);
-    font-weight: 600;
-}
 @include media($small) {
      h2, h3 {
         font-size: em(32, nth($article, 1));

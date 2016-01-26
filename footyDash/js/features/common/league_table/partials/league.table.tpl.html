@@ -15,9 +15,9 @@
 		</thead>
 		<tbody id="teamsTable">
 			<tr ng-repeat="team in vm.tables" id="{{team._links.team.href | teamIDFilter}}" class="teamRow" ng-click="vm.getTeamDetails((team._links.team.href | teamIDFilter))">
-				<td st-ratio="25"><img ng-src="{{ team.crestURI }}" ng-cloak/></td>
-				<td st-ratio="25">{{ team.teamName }}</td>
-				<td st-ratio="25">{{ team.points }}</td>
+				<td><img ng-src="{{ team.crestURI }}" ng-cloak/></td>
+				<td>{{ team.teamName }}</td>
+				<td>{{ team.points }}</td>
 			</tr>
 		</tbody>
 	</table>

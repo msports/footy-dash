@@ -143,9 +143,6 @@ body:before {
   border: 0;
 }
 
-.bot-border{
-    border-bottom:1px solid $lightBlueBorder;
-}
 // Breakpoint indicator in pseudo-element (display none) on body, only readable via JS, instead of writing breakpoint class name to body tag via JS
 body:before {
     display: none;
