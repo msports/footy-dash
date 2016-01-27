@@ -4,7 +4,7 @@
  *  This is an example of a "component" directive which encapsulates a template.
  *
  *  @author  Chip
- *  @date    Jan 7, 2016
+ *  @date    Jan 27, 2016
  *
  * ******************************************************************************************************
  */

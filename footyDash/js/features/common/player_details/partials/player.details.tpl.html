@@ -4,9 +4,9 @@
 		<thead>
 			<tr>
 				<th ng-click="vm.changeSorting('name')">Name</th>
-				<th ng-click="vm.changeSorting('position')">Position</th>
+				<th ng-click="changeSort('position')">Position</th>
 				<th ng-click="vm.changeSorting('jerseyNumber')">Number</th>
-				<th ng-click="vm.changeSorting('-marketValue | playerMarketValue')" class="sortDesc">Market Value</th>
+				<th ng-click="vm.changeSorting('-marketValue | playerMarketValue')" class="sortDesc">Market Value<span class="arrow-up"></span></th>
 			</tr>
 		</thead>
 		<tbody>

@@ -4,7 +4,7 @@
  *   Defines a PlayerDetailsDirective 
  *
  *  @author  Chip
- *  @date    Jan 7, 2016
+ *  @date    Jan 27, 2016
  *
  * ******************************************************************************************************
  */
@@ -24,7 +24,8 @@ export default  class PlayerDetailsDirective {
 		this.replace = true;
 		this.scope = {};
 		this.bindToController = {
-			players: '='
+			players: '=',
+			changeSort: '&'
 		};
 		this.controller = PlayerDetailsController;
 		this.controllerAs = 'vm';
@@ -33,5 +34,9 @@ export default  class PlayerDetailsDirective {
 	/**
 	 * Link function for the player details directive
 	 */
-	link() {}
+	link(scope) {
+		scope.changeSort = function(column){
+			console.log('Dir Sort: '+column);
+		}
+	}
 }

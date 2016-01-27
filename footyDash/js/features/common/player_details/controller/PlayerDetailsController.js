@@ -4,7 +4,7 @@
  *   Defines a PlayerDetailsController
  *
  *  @author  Chip
- *  @date    Jan 7, 2016
+ *  @date    Jan 27, 2016
  *
  * ******************************************************************************************************
  */
@@ -65,8 +65,10 @@ export default class PlayerDetailsController {
 	changeSorting(column) {
 		let sort = this.sort;
         if (sort.column === column) {
+			console.log('Sort: '+sort.column);
             sort.descending = !sort.descending;
         } else {
+			console.log('Sort: '+sort.column);
             sort.column = column;
             sort.descending = false;
         }
